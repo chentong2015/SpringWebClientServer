@@ -9,10 +9,6 @@ G
 JaxRS-api-basic/pom.xml,5\f\5fb3c8d1edfd0b50f2816732e28e4f31f1ac0f18
 ~
 Nspring-web-client/src/main/java/com/spring/web/client/BaseSpringWebClient.java,7\d\7d6d63df9fc3cb65ddf21a89ee4118e1f23257d4
-}
-Mspring-server-send-event/src/main/java/com/spring/sse/BaseSeverSendEvent.java,4\0\4080b76adf78635aeda53d0bfeaac01dfbbcec53
-|
-Lspring-server-send-event/src/main/java/com/murex/sse/SubsystemSseServer.java,6\e\6e3e47b7ed4689b9565173338bf5a8fce89c9501
 j
 :JaxRS-api-basic/src/main/java/com/jaxrs/api/BaseJaxRs.java,a\0\a08246adea3ba63e1be99ba94077b8ceff4ceab8
 C

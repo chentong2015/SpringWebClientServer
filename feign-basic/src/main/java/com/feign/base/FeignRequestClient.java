@@ -1,10 +1,10 @@
-package com.feign.main.networking;
+package com.feign.base;
 
+import feign.Body;
 import feign.Headers;
 import feign.Param;
 import feign.RequestLine;
 
-//  static client & embedded client的区别 ??
 public interface FeignRequestClient {
 
     // 指定配置Content的类型
@@ -31,4 +31,10 @@ public interface FeignRequestClient {
     //                                               @Param("Authorization") String authorizationHeader,
     //                                               @Param("body") String body,
     //                                               @Param("index") int index) throws CallEndpointException;
+
+    // 在请求的body中传递json数据
+    @RequestLine("POST /")
+    @Headers("Content-Type: application/xml")
+    @Body("<login \"user_name\"=\"{user_name}\" \"password\"=\"{password}\"/>")
+    void xml(@Param("user_name") String user, @Param("password") String password);
 }

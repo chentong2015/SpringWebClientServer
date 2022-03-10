@@ -1,6 +1,5 @@
-package com.feign.main;
+package com.feign.base;
 
-import com.feign.main.networking.FeignRequestClient;
 import feign.Feign;
 import feign.jackson.JacksonDecoder;
 import feign.jackson.JacksonEncoder;
