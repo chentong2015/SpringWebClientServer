@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-server-send-event" />
         <module name="JaxRS-api-basic" />
         <module name="spring-web-client" />
         <module name="feign-basic" />
         <module name="spring-web-flux" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-server-send-event" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

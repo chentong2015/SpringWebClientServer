@@ -1,10 +1,6 @@
 
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 P
  spring-server-send-event/pom.xml,4\f\4f84d5e831bfba97e7fd43837e5769d33a1196d4
-I
-spring-web-client/pom.xml,c\4\c4532cd06ed8bde48c0f60c2541fa1637b2facee
 G
 JaxRS-api-basic/pom.xml,5\f\5fb3c8d1edfd0b50f2816732e28e4f31f1ac0f18
 j

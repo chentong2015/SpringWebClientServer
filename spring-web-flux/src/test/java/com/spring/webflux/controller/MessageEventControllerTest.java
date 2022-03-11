@@ -22,6 +22,7 @@ class MessageEventControllerTest {
     // 使用reactor-test依赖中WebClient测试
     private final WebTestClient webClient;
 
+    // 指定测试方法显示名称
     @Test
     @DisplayName("Should get five events")
     void shouldConsumeServerSentEvents(TestInfo testInfo) {
