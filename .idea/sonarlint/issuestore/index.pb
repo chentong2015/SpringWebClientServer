@@ -7,9 +7,9 @@ I
 spring-web-client/pom.xml,c\4\c4532cd06ed8bde48c0f60c2541fa1637b2facee
 G
 JaxRS-api-basic/pom.xml,5\f\5fb3c8d1edfd0b50f2816732e28e4f31f1ac0f18
-~
-Nspring-web-client/src/main/java/com/spring/web/client/BaseSpringWebClient.java,7\d\7d6d63df9fc3cb65ddf21a89ee4118e1f23257d4
 j
 :JaxRS-api-basic/src/main/java/com/jaxrs/api/BaseJaxRs.java,a\0\a08246adea3ba63e1be99ba94077b8ceff4ceab8
 C
 feign-basic/pom.xml,b\e\bef69b68e6231ca80a894ad8bbc8f28e3c7500f9
+p
+@feign-basic/src/main/java/com/feign/base/FeignRequestClient.java,c\c\cc90c3968f20ffb867f3a9e332bed0c8130a34fc

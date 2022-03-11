@@ -13,6 +13,7 @@
         <module>spring-server-send-event</module>
         <module>feign-basic</module>
         <module>JaxRS-api-basic</module>
+        <module>spring-web-flux</module>
     </modules>
 
     <properties>

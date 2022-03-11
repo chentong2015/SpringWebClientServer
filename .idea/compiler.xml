@@ -10,6 +10,7 @@
         <module name="JaxRS-api-basic" />
         <module name="spring-web-client" />
         <module name="feign-basic" />
+        <module name="spring-web-flux" />
       </profile>
     </annotationProcessing>
   </component>

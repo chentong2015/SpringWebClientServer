@@ -1,23 +1,10 @@
 package com.spring.sse;
 
 // Spring Sever Send Event
-// Spring WebFlux 项目中的一部分
+// 1. 单向的事件流(Event Streaming)，Server端一发送便能收到更新
+// 2. Server端接受请求之后，会保持open，直到没有新的event剩下， 或者Timeout
+// 3. 为了避免Connection Timeout, Server端会通过Heartbeat机制来维持
+// 4. 如果timeout发生了，则需要重新建立连接
 public class BaseSeverSendEvent {
-
-    // SSE(client-service): Sping Send Event 事件发送的机制，订阅一个事件 ? 需要了解
-    // SSE Streaming in Spring MVC
-    // Spring Web Flux
-    // feign reactive
-    // Reactive Stream Wrapper, github
-    // 事件发送和请求的逻辑
-    // 服务端使用C++，客户端使用Java
-    // 数据时如何发送和验证安全的
-    //
-    // SSE(client-service): Sping Send Event 事件发送的机制，订阅一个事件
-    // SSE Streaming in Spring MVC
-    // Spring Web Flux & Feign Ractive & Java 11 Reactive Http Client
-    // Reactive Stream Wrapper, github
-    // 事件发送和请求的逻辑
-    // 服务端使用C++，客户端使用Java
-    // 数据时如何发送和验证安全的
+   
 }
