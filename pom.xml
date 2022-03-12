@@ -13,11 +13,13 @@
         <module>feign-basic</module>
         <module>JaxRS-api-basic</module>
         <module>spring-web-flux</module>
+        <module>spring-web-mvc</module>
+        <module>spring-web-mvc-demo1</module>
+        <module>spring-web-mvc-demo2</module>
     </modules>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
-
 </project>

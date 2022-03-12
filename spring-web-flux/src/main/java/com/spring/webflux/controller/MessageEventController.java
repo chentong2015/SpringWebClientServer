@@ -17,6 +17,7 @@ import java.time.LocalTime;
 // data:{"nickname":"josdem","text":"Hola","timestamp":"2019-04-25T12:51:48.693987Z"}
 // data:{"nickname":"josdem","text":"Bonjour","timestamp":"2019-04-25T12:51:49.692895Z"}
 // data:{"nickname":"josdem","text":"Zdravstvuyte","timestamp":"2019-04-25T12:51:50.693260Z"}
+// ...
 @RestController
 @RequiredArgsConstructor
 public class MessageEventController {
@@ -29,16 +30,18 @@ public class MessageEventController {
     public Flux<Event> index() {
         return messageService.stream();
     }
-    
+
     // 直接通过ServerSentEvent构建, 不用再声明“text/event-stream” media type
+    // 根据SSE network protocol网络协议约束event的发送
     @GetMapping("/stream-sse")
     public Flux<ServerSentEvent<String>> streamEvents() {
         return Flux.interval(Duration.ofSeconds(1))
                 .map(sequence -> ServerSentEvent.<String>builder()
-                        .id(String.valueOf(sequence))
-                        .event("periodic-event")
-                        .data("SSE - " + LocalTime.now().toString())
-                        .comment("some comments ...")
+                        .id(String.valueOf(sequence))  // unique event identifier 用于连接端口后的自动重连
+                        .event("periodic-event")       // event 事件的类型
+                        .data("SSE - " + LocalTime.now().toString()) // data 事件对应的具体数据
+                        .retry(Duration.ofSeconds(2))  // 如果断开，client自动重连的时间间隔，默认3s
+                        .comment("some comments ...")  // 心跳机制，发送client会忽略的信息，避免断连
                         .build());
     }
 }
