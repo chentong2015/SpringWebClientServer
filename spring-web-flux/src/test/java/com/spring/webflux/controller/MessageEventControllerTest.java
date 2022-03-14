@@ -1,6 +1,6 @@
 package com.spring.webflux.controller;
 
-import com.spring.webflux.model.Event;
+import com.spring.sse.webflux.model.Event;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;

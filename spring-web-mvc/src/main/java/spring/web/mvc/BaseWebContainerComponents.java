@@ -1,5 +1,7 @@
 package spring.web.mvc;
 
+import spring.web.mvc.model.IParseDoc;
+
 import java.util.ServiceLoader;
 
 public class BaseWebContainerComponents {
