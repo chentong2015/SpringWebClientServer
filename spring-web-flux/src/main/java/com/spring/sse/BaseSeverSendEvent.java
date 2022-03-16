@@ -9,7 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 // 3. 为了避免Connection Timeout, Server端会通过Heartbeat机制来维持
 // 4. 如果timeout发生了，则需要重新建立连接retry
 
-// Server-Sent Events (SSE) is a web technology
+// Server-Sent Events(SSE)
+// TODO: SSE是一个web技术, 基于HTTP, 和REST没有关联
 // 1. Provide one-way server-to-client communications, based on the existing HTTP protocol
 // 2. Useful for sending notifications to clients or some like real time events update
 //    in a stream approach such as news update or stock update

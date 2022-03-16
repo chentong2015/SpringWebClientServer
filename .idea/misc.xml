@@ -12,6 +12,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/JaxRS-api-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-basic/pom.xml" />
         <option value="$PROJECT_DIR$/spring-server-send-event/pom.xml" />
       </set>
     </option>

@@ -1,4 +1,4 @@
-package spring.web.mvc.model;
+package model;
 
 public class WordParse implements IParseDoc {
 

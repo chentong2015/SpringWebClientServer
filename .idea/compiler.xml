@@ -7,15 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-web-mvc" />
-        <module name="JaxRS-api-basic" />
         <module name="spring-web-mvc-demo2" />
-        <module name="spring-web-mvc-demo1" />
         <module name="spring-web-client" />
-        <module name="feign-basic" />
+        <module name="spring-web-mvc-demo1" />
+        <module name="spring-web-security" />
         <module name="spring-web-flux" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="feign-basic" target="11" />
+      <module name="JaxRS-api-basic" target="11" />
       <module name="spring-server-send-event" target="11" />
     </bytecodeTargetLevel>
   </component>
