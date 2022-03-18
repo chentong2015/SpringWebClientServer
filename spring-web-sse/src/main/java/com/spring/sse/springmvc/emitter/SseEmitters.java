@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class SseEmitters {
-    
+
     private final List<SseEmitter> emitters = new CopyOnWriteArrayList<>();
 
     public SseEmitter add(SseEmitter emitter) {
@@ -22,8 +22,7 @@ public class SseEmitters {
         return emitter;
     }
 
-    // Send the same events to many clients
-    // 将所有相同的event发送给所有连接的clients
+    // Send the same events to many clients 对连接的client进行广播
     public void send(Object obj) {
         List<SseEmitter> failedEmitters = new ArrayList<>();
         this.emitters.forEach(emitter -> {

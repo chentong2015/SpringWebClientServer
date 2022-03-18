@@ -37,7 +37,7 @@ public class EmitterController {
         return emitter;
     }
 
-    // 使用SseEventBuilder来发送多种fields属性
+    // 使用SseEventBuilder来发送多种fields属性的event
     @GetMapping("/stream-sse-mvc")
     public SseEmitter streamSseMvc() {
         SseEmitter emitter = new SseEmitter();

@@ -5,12 +5,13 @@
     <title>Server-Sent Events client example with EventSource</title>
 </head>
 <body>
-<!-- SSE Javascript Client API
+<!-- Javascript Client API for SSE
      TODO: defines an EventSource and subscribes to the message event stream
-     前端订阅指定的消息事件流
-     客户端在断开之后将会自动重连，继续接受Server端发送的信息
-     There is used automatic reconnect on the client-side and the implemented reconnect on the server-side.-->
+     前端订阅指定的消息事件流，客户端在断开之后将会自动重连，继续接受Server端发送的信息
+     There is used automatic reconnect on the client-side
+     and the implemented reconnect on the server-side. -->
 <script>
+    // 浏览器可能不支持SSE
     if (window.EventSource == null) {
         alert('The browser does not support Server-Sent Events');
     } else {
@@ -18,9 +19,7 @@
         eventSource.onopen = function () {
             console.log('connection is established');
         };
-        eventSource.onerror = function (error) {
-            console.log('connection state: ' + eventSource.readyState + ', error: ' + event);
-        };
+
         eventSource.onmessage = function (event) {
             console.log('id: ' + event.lastEventId + ', data: ' + event.data);
             if (event.data.endsWith('.')) {
@@ -28,9 +27,14 @@
                 console.log('connection is closed');
             }
         };
+
         eventSource.addEventListener('type1', function (event) {
             console.log('id: ' + event.lastEventId + ', data: ' + event.data);
-        }, false)
+        }, false);
+
+        eventSource.onerror = function (error) {
+            console.log('connection state: ' + eventSource.readyState + ', error: ' + error);
+        };
     }
 </script>
 </body>
