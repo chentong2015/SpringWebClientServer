@@ -13,7 +13,7 @@ public class MyWebAppInitializer implements WebApplicationInitializer {
     @Override
     public void onStartup(ServletContext container) {
         AnnotationConfigWebApplicationContext rootContext = new AnnotationConfigWebApplicationContext();
-        rootContext.register(WebConfig.class);
+        rootContext.register(MyWebConfig.class);
         container.addListener(new ContextLoaderListener(rootContext));
 
         // TODO: 将Web应用的上下文添加到IoC的上下文 => 把Tomcat容器加到IoC容器中

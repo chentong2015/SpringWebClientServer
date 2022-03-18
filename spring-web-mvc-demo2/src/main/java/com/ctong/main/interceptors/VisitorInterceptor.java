@@ -7,12 +7,14 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.time.LocalDateTime;
 
-// Interceptor 拦截器：Spring Web提供的实现
-// 构建全局的Session Attribute和Request Attribute, 绑定Handler Method中的参数
+// Interceptor 拦截器：
+// 1. Spring Web提供的实现, 基于Servlet HandlerInterceptor的实现
+// 2. 构建全局的Session Attribute和Request Attribute, 绑定Handler Method中的参数
+// 3. 配置Request Session中的数据
 public class VisitorInterceptor implements HandlerInterceptor {
 
     @Override
-    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
         request.setAttribute("currentTime", LocalDateTime.now());
 
         // Create a http session object, true: if there is no http session, create a new one !!

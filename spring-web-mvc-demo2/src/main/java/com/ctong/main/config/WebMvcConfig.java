@@ -1,5 +1,6 @@
 package com.ctong.main.config;
 
+import com.ctong.main.interceptors.MyWebRequestInterceptor;
 import com.ctong.main.interceptors.VisitorInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -60,5 +61,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new VisitorInterceptor());
+        registry.addWebRequestInterceptor(new MyWebRequestInterceptor());
     }
 }

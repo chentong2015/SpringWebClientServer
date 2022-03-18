@@ -1,12 +1,9 @@
 package spring.web.mvc.config;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.multipart.MultipartResolver;
-import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
@@ -27,13 +24,4 @@ public class MyWebMvcConfig implements WebMvcConfigurer {
     //            this.configurers.addWebMvcConfigurers(configurers);
     //        }
     //    }
-
-    @Bean
-    public MultipartResolver multipartResolver() {
-        // 文件上传和下载的组件
-        CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver();
-        multipartResolver.setDefaultEncoding("UTF-8");
-        multipartResolver.setMaxUploadSize(1024 * 1024 * 10);
-        return multipartResolver;
-    }
 }

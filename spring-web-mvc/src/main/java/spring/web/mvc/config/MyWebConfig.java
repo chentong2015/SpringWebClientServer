@@ -13,7 +13,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
 @Configuration
-public class WebConfig implements WebMvcConfigurer {
+public class MyWebConfig implements WebMvcConfigurer {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
@@ -50,8 +50,10 @@ public class WebConfig implements WebMvcConfigurer {
     }
 
     /**
-     * 添加自定义的HandlerInterceptor拦截器: configure a list of mapped com.ctong.springboot.interceptors
-     * 添加LocaleChangeInterceptor语言环境变更拦截器: 通过URL参数来动态改变UI语言 localhost:8080/?lang=fr
+     * 添加自定义的HandlerInterceptor拦截器:
+     * configure a list of mapped com.ctong.springboot.interceptors
+     * 添加LocaleChangeInterceptor语言环境变更拦截器:
+     * TODO: 通过URL参数来动态改变UI语言 localhost:8080/?lang=fr
      */
     @Override
     public void addInterceptors(InterceptorRegistry registry) {

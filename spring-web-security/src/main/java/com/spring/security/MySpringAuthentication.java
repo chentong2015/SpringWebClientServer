@@ -7,15 +7,6 @@ import java.security.Principal;
 import java.util.Collection;
 import java.util.Collections;
 
-// Spring Authentification 用户登录和认证的问题
-// https://spring.io/projects/spring-security-oauth 已经废弃了 !!
-// Autorisation
-// Permission
-// Client ID
-// Authentification Filter ==> 用户身份的管理和认证
-// Use Session ==> 通过session来保证用户是否登录  https://spring.io/projects/spring-session-core
-// https://spring.io/guides/tutorials/spring-boot-oauth2/
-
 // 自定义对于Spring Security安全认证的实现
 public class MySpringAuthentication implements Authentication {
 
