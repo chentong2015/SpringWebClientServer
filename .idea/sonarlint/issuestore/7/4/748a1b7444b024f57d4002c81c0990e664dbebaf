@@ -1,8 +1,0 @@
-
-Z
-java:S1854"?Remove this useless assignment to local variable "myPrincipal".(íÂõºÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÆÔŽ³úÿÿÿÿ
-K
-java:S1481"0Remove this unused "myPrincipal" local variable.(íÂõºÿÿÿÿÿ
-g
-java:S2259"LA "NullPointerException" could be thrown; "authentication" is nullable here.(Â­×ñüÿÿÿÿ
