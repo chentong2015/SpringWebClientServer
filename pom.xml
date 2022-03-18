@@ -10,11 +10,11 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-web-client</module>
-        <module>spring-web-flux</module>
         <module>spring-web-mvc</module>
         <module>spring-web-mvc-demo1</module>
         <module>spring-web-mvc-demo2</module>
         <module>spring-web-security</module>
+        <module>spring-web-sse</module>
     </modules>
 
     <properties>

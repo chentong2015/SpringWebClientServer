@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 // 4. 如果timeout发生了，则需要重新建立连接retry
 
 // Server-Sent Events(SSE)
-// TODO: SSE是一个web技术, 基于HTTP, 和REST没有关联
+// TODO: SSE是一个基于HTTP的web技术/Protocol, 和REST没有关联
 // 1. Provide one-way server-to-client communications, based on the existing HTTP protocol
 // 2. Useful for sending notifications to clients or some like real time events update
 //    in a stream approach such as news update or stock update
@@ -25,7 +25,7 @@ public class BaseSeverSendEvent {
     // 3. event: type1           server发送不同的事件类型
     //    data: An event of type1
     // 4. retry: 1000            连接断开，设置client端将在多少时间内自动重连
-    // 5. : ping                 以:开始会被client端忽略，server可以发送comments避免由于timeout造成的断连 !!
+    // 5. : ping                 以:开始会被client端忽略
 
     public static void main(String[] args) {
         SpringApplication.run(BaseSeverSendEvent.class, args);

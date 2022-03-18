@@ -8,4 +8,5 @@ package com.spring.sse.webflux;
 // based on Reactive Streams API
 // uses the event-loop computing model to implement asynchronous Java web applications
 public class BaseSpringWebFlux {
+    
 }
