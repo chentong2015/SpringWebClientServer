@@ -9,8 +9,7 @@ import reactor.core.publisher.Flux;
 
 import java.time.LocalTime;
 
-// Spring WebClient (Reactive ClientRequest)
-// 1. 新的WebClient替代了原始的Spring AsyncRestTemplate
+// Spring WebClient (Reactive ClientRequest): 替代Spring AsyncRestTemplate/RestTemplate
 public class BaseSpringWebClient {
 
     private final Logger logger = LogManager.getLogger(BaseSpringWebClient.class);

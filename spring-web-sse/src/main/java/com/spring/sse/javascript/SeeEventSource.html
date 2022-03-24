@@ -16,7 +16,8 @@
         alert('The browser does not support Server-Sent Events');
     } else {
         const eventSource = new EventSource('/sse/mvc/words');
-        eventSource.onopen = function () {
+
+        eventSource.eventSource.onopen = function () {
             console.log('connection is established');
         };
 
