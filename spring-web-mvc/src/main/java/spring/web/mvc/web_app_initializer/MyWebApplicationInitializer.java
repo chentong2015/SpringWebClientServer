@@ -29,6 +29,7 @@ public class MyWebApplicationInitializer implements WebApplicationInitializer {
         // childContext.register(DispatcherConfig.class);
 
         DispatcherServlet dispatcherServlet = new DispatcherServlet(childContext);
+        dispatcherServlet.setThrowExceptionIfNoHandlerFound(true); // 配置是否在404 Not Found的情况下抛出指定的异常
         ServletRegistration.Dynamic dispatcher = container.addServlet("app", dispatcherServlet);
         dispatcher.setLoadOnStartup(1);
         dispatcher.addMapping("/");
