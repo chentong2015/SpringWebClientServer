@@ -4,6 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.ViewResolver;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -13,7 +14,8 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
 @Configuration
-public class MyWebConfig implements WebMvcConfigurer {
+@EnableWebMvc
+public class WebMvcConfigurerBasic implements WebMvcConfigurer {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
@@ -21,8 +23,9 @@ public class MyWebConfig implements WebMvcConfigurer {
     }
 
     /**
-     * 没有使用Spring boot默认的资源路径                 ===> Spring Boot会默认配置Prefix到/src/main/resources/templates !!
-     * 1. 需要配置ViewResolver解析路径到WEB-INF/下面     ===> 也可以在application.properties中配置 !!
+     * 没有使用Spring boot默认的资源路径
+     * Spring Boot会默认配置Prefix到/src/main/resources/templates !!
+     * 1. 需要配置ViewResolver解析路径到WEB-INF/下面, 或者在application.properties中配置 !!
      * 2. 由于JSP在Spring Boot中的限制，不使用JSP渲染界面
      */
     @Bean

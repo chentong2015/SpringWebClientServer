@@ -1,17 +1,18 @@
 package spring.web.mvc.servlet_container_initializer;
 
-// TODO: Spring如何整合Spring MVC以及启动流程
+// Spring如何整合Spring MVC以及启动流程
 public class SpringServletContainerInitializer {
 
     // 1. 配置文件名称
     // resources/META-INF/services/javax.servlet.ServletContainerInitializer
     // org.springframework.web.SpringServletContainerInitializer 找到启动时需要调用的类型的onStartup()方法
     //
-    // 2. 定义Servlet容器启动器
+    // 2. 定义"Servlet容器"启动器
     // @HandlesTypes(WebApplicationInitializer.class)
     // public class SpringServletContainerInitializer implements ServletContainerInitializer {
+    //
     //   TODO: 该方法在tomcat.startup启动时自动调用
-    //         Set<Class<?>>集合包含了所有实现注解标注的接口(WebApplicationInitializer)的类型
+    //         Set<Class<?>>  包含所有实现注解标注的接口(WebApplicationInitializer)的类型的集合
     //         ServletContext Web应用的上下文
     //   public void onStartup(@Nullable Set<Class<?>> webAppInitializerClasses, ServletContext servletContext)
     //			throws ServletException {
@@ -21,7 +22,7 @@ public class SpringServletContainerInitializer {
     //			for (Class<?> waiClass : webAppInitializerClasses) {
     //				// Be defensive: Some servlet containers provide us with invalid classes, no matter what @HandlesTypes says...
     //				if (!waiClass.isInterface() && !Modifier.isAbstract(waiClass.getModifiers())
-    //				&& WebApplicationInitializer.class.isAssignableFrom(waiClass)) {
+    //				    && WebApplicationInitializer.class.isAssignableFrom(waiClass)) {
     //					try {
     //						initializers.add((WebApplicationInitializer)
     //						ReflectionUtils.accessibleConstructor(waiClass).newInstance());
@@ -40,7 +41,6 @@ public class SpringServletContainerInitializer {
     //		AnnotationAwareOrderComparator.sort(initializers);
     //		for (WebApplicationInitializer initializer : initializers) {
     //          // TODO: 调用到自定义的WebApplicationInitializer实现类型的onStartup()方法;
-    //          //       WebAppInitializer中配置web的三大组件，等效于xml的配置
     //			initializer.onStartup(servletContext);
     //		}
     //   }

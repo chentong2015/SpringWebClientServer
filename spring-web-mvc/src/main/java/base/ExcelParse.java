@@ -1,4 +1,4 @@
-package model;
+package base;
 
 public class ExcelParse implements IParseDoc {
 

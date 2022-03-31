@@ -1,10 +1,10 @@
 package spring.web.mvc;
 
-import model.IParseDoc;
+import base.IParseDoc;
 
 import java.util.ServiceLoader;
 
-// TODO: 如何往容器中注入Web三大组件(servlet, listener, filter)
+// TODO: 如何往容器中注入Web三大组件(servlet, filter, listener)
 // 1. 配置xml文件
 //    web.xml;  dispatcher-servlet.xml
 // 2. 使用特定的注解
@@ -16,7 +16,7 @@ import java.util.ServiceLoader;
 //    3.2 在文件中配置使用的具体配置类型的全路径
 //    3.3 要求配置的类型必须有无参的构造器
 public class BaseWebContainerComponents {
-    
+
     // TODO: 通过ServiceLoader类读取前面配置的文件，将配置的类型通过反射创建对象
     public static void main(String[] args) {
         // 彻底解耦的实现，只需要改配置文件

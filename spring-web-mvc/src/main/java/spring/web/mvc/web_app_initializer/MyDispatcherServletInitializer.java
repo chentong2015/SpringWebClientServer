@@ -7,7 +7,7 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 
 // 根据WebApplicationInitializer的继承链，选择实现合适的抽象类或者接口
-public class MyWebAppInitializerNew extends AbstractDispatcherServletInitializer {
+public class MyDispatcherServletInitializer extends AbstractDispatcherServletInitializer {
 
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
