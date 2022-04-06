@@ -26,7 +26,7 @@ public class MySseEmitter extends SseEmitter {
         this.pulseScheduler.scheduleWithFixedDelay(this::pulse, 30L, 30L, SECONDS);
     }
 
-    // 模拟心跳
+    // 模拟心跳，周期，定时发送指定的事件
     void pulse() {
         try {
             logger.debug("Sending a heart beat");

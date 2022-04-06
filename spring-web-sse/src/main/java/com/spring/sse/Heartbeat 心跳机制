@@ -12,7 +12,6 @@ Server端心跳机制的实现机制:
 1. 什么时候开始心跳 ? 什么时候关闭
 2. server 端发送回 client的心跳机制 由于网络中断，没有接收到
    client端将会重新进入timeout的问题 ...
-3. 考虑实现过程中的异常情况以及高并发
-4. heartbeat心跳机制的时间和server执行任务的时间没有关系
-5. client定义timeout，并"动态"发送给server: 通过header name名称中传递信息 ?
-   client在断了之后，发信息到server端，server选择time*80% ?
+3. 考虑实现过程中的异常情况以及高并发 ?
+4. client定义timeout，并"动态"发送给server: server选择time*80%重新计算心跳时间
+
