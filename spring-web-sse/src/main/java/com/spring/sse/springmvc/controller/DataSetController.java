@@ -41,7 +41,8 @@ public class DataSetController {
                     // 交给另一个线程去发送event消息
                     // 1. 发送简单的event
                     emitter.send(dataSet);
-                    // 2. 发送完整的event
+                    // 2. 通过SseEventBuilder来发送完整的event
+                    // emitter.send(SseEmitter.event().id("1").name("name item"));
                     SseEmitter.SseEventBuilder eventBuilder = SseEmitter.event();
                     emitter.send(eventBuilder
                             .data(dataSet)

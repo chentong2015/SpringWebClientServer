@@ -23,7 +23,7 @@ public class FolderWatchController {
 
     @GetMapping(path = "/folder-watch", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     SseEmitter getFolderWatch() {
-        return emitters.add(new SseEmitter());
+        return emitters.register(new SseEmitter());
     }
 
     // @Override

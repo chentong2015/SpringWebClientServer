@@ -35,6 +35,6 @@ public class PerformanceController {
 
     @GetMapping(path = "/performance", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public SseEmitter getPerformance() {
-        return emitters.add(new SseEmitter());
+        return emitters.register(new SseEmitter());
     }
 }
