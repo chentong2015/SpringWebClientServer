@@ -1,5 +1,6 @@
 package com.spring.web.client;
 
+import com.spring.rest.template.BaseSpringRestTemplate;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.core.ParameterizedTypeReference;
@@ -9,10 +10,9 @@ import reactor.core.publisher.Flux;
 
 import java.time.LocalTime;
 
-// Spring WebClient (Reactive ClientRequest): 替代Spring AsyncRestTemplate/RestTemplate
 public class BaseSpringWebClient {
 
-    private final Logger logger = LogManager.getLogger(BaseSpringWebClient.class);
+    private final Logger logger = LogManager.getLogger(BaseSpringRestTemplate.class);
 
     // TODO: Client Side 客户端使用WebClient to consume a SSE endpoint
     // client.get()

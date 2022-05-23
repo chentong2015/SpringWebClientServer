@@ -15,7 +15,6 @@
         <module>spring-web-mvc-demo2</module>
         <module>spring-web-security</module>
         <module>spring-web-sse</module>
-        <module>spring-web-rest-sse-emitter</module>
     </modules>
 
     <properties>

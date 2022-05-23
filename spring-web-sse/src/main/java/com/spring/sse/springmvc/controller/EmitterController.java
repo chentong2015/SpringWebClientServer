@@ -29,6 +29,7 @@ public class EmitterController {
                     emitter.send(word);
                     TimeUnit.SECONDS.sleep(1);
                 }
+                // TODO. 在Emitter完成信息的发送之后，是否需要做相关的清除的操作 !!
                 emitter.complete();
             } catch (Exception e) {
                 emitter.completeWithError(e);
