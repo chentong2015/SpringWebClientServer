@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/spring-web-mvc-demo2" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-web-mvc-demo/spring-web-mvc-demo2" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-rest-template/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
