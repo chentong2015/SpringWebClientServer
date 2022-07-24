@@ -1,9 +1,0 @@
-
-`
-java:S44885"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ˆÛºû
-e
-java:S1854G"JRemove this useless assignment to local variable "currentSessionDuration".(çÁðòùÿÿÿÿ
-V
-java:S1481G";Remove this unused "currentSessionDuration" local variable.(çÁðòùÿÿÿÿ
-~
-java:S1488#"cImmediately return this expression instead of assigning it to the temporary variable "visitorData".(ôˆÇ¸øÿÿÿÿ
