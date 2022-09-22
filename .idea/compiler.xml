@@ -12,7 +12,7 @@
         <module name="spring-web-mvc-demo1" />
         <module name="spring-web-client" />
         <module name="spring-web-security" />
-        <module name="spring-web-flux" />
+        <module name="spring-web-sse" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,8 +20,8 @@
       <module name="JaxRS-api-basic" target="11" />
       <module name="spring-rest-template" target="11" />
       <module name="spring-server-send-event" target="11" />
+      <module name="spring-web-mvc-demo" target="11" />
       <module name="spring-web-rest-sse-emitter" target="11" />
-      <module name="spring-web-sse" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

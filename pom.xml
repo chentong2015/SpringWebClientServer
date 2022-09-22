@@ -8,16 +8,16 @@
     <artifactId>SpringWebClientSSE</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>spring-rest-template</module>
-        <module>spring-web-mvc</module>
-        <module>spring-web-security</module>
-        <module>spring-web-sse</module>
-        <module>spring-web-mvc-demo</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
+
+    <modules>
+        <module>spring-rest-template</module>
+        <module>spring-web-mvc-basic</module>
+        <module>spring-web-security</module>
+        <module>spring-web-sse</module>
+    </modules>
 </project>

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-web-flux</artifactId>
+    <artifactId>spring-web-sse</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

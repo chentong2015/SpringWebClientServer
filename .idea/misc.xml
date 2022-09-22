@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/spring-web-mvc-demo/spring-web-mvc-demo2" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-web-mvc-basic/spring-web-mvc-demo2" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-rest-template/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-web-mvc-basic/spring-web-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-web-mvc-basic/spring-web-mvc-base/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-web-mvc-basic/spring-web-mvc-demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-web-mvc-basic/spring-web-mvc-demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-web-mvc-basic/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -16,11 +21,12 @@
         <option value="$PROJECT_DIR$/JaxRS-api-basic/pom.xml" />
         <option value="$PROJECT_DIR$/feign-basic/pom.xml" />
         <option value="$PROJECT_DIR$/spring-server-send-event/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-web-mvc-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-web-rest-sse-emitter/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="15" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
