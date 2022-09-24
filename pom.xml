@@ -15,7 +15,7 @@
     </properties>
 
     <modules>
-        <module>spring-rest-template</module>
+        <module>spring-web-flux</module>
         <module>spring-web-mvc-basic</module>
         <module>spring-web-security</module>
         <module>spring-web-sse</module>

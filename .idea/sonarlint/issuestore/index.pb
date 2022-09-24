@@ -51,16 +51,8 @@ Ospring-web-sse/src/main/java/com/spring/sse/springmvc/emitter/MySseEmitter.java
 [spring-web-sse/src/main/java/com/spring/sse/springmvc/controller/FolderWatchController.java,e\a\ea203eea75af7794f4a2ff4c69f6cc9b496a477f
 á
 Wspring-web-sse/src/main/java/com/spring/sse/springmvc/controller/EmitterController.java,e\2\e28f5f72212e8ada57fe9ada1e276bfd305b2325
-Å
-Qspring-rest-template/src/main/java/com/spring/web/client/BaseSpringWebClient.java,e\1\e18dacf6d0eb80290314734af33a9c60cb48f021
-á
-Wspring-rest-template/src/main/java/com/spring/rest/template/BaseSpringRestTemplate.java,f\a\fa43e6743f6d3b8888942d60de42fd8faa6507f6
-L
-spring-rest-template/pom.xml,d\f\dffc92a19ab11542706df8f97dfb200f2d813743
 F
 spring-web-sse/pom.xml,4\3\439e47e41175d1491bf53798cd607ece8569cb94
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 [
 +spring-web-mvc-basic/spring-web-mvc/pom.xml,c\5\c5ab4030cfd35985cd724465894fbf6560c7248d
 `
@@ -71,5 +63,7 @@ L
 spring-web-mvc-basic/pom.xml,b\e\bea2fb1e5ae46551fa432dfdb3ef8100b559d0e9
 a
 1spring-web-mvc-basic/spring-web-mvc-demo2/pom.xml,1\1\1155dcda0cd92d2c96f41c27bf60113c0b38b045
-s
-Cspring-rest-template/src/main/java/com/spring/SpringÂèëÈÄÅwebËØ∑Ê±Ç,9\2\92863b5c089d027beb37a2476131a8d8d04b3d02
+à
+Xspring-web-mvc-basic/spring-web-mvc-base/src/main/java/com/spring/mvc/BaseSpringMVC.java,3\2\327e5b6e146b2c51638f19ad20bb09b9d3ece293
+ç
+]spring-web-mvc-basic/spring-web-mvc-base/src/main/java/com/spring/mvc/SpringResourcePath.java,c\9\c94d2ddf5ff4e1ea2cbdd7926f8ab91c46427d88

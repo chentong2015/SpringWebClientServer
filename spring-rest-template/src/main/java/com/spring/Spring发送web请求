@@ -1,2 +1,0 @@
-推荐使用Spring AsyncRestTemplate/RestTemplate
-废弃使用Spring WebClient (Reactive ClientRequest)
