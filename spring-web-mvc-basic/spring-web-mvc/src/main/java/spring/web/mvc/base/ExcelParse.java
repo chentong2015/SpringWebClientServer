@@ -1,4 +1,4 @@
-package base;
+package spring.web.mvc.base;
 
 public class ExcelParse implements IParseDoc {
 

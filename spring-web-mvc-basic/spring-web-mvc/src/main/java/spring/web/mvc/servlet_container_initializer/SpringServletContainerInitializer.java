@@ -12,10 +12,9 @@ public class SpringServletContainerInitializer {
     // public class SpringServletContainerInitializer implements ServletContainerInitializer {
     //
     //   TODO: 该方法在tomcat.startup启动时自动调用
-    //         Set<Class<?>>  包含所有实现注解标注的接口(WebApplicationInitializer)的类型的集合
-    //         ServletContext Web应用的上下文
-    //   public void onStartup(@Nullable Set<Class<?>> webAppInitializerClasses, ServletContext servletContext)
-    //			throws ServletException {
+    //      Set<Class<?>>  包含所有实现注解标注的接口(WebApplicationInitializer)的类型的集合
+    //      ServletContext Web应用的上下文
+    //   public void onStartup(@Nullable Set<Class<?>> webAppInitializerClasses, ServletContext servletContext) throws ServletException {
     //		List<WebApplicationInitializer> initializers = Collections.emptyList();
     //		if (webAppInitializerClasses != null) {
     //			initializers = new ArrayList<>(webAppInitializerClasses.size());

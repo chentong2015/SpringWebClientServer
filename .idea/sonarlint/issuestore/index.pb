@@ -53,10 +53,6 @@ Ospring-web-sse/src/main/java/com/spring/sse/springmvc/emitter/MySseEmitter.java
 Wspring-web-sse/src/main/java/com/spring/sse/springmvc/controller/EmitterController.java,e\2\e28f5f72212e8ada57fe9ada1e276bfd305b2325
 F
 spring-web-sse/pom.xml,4\3\439e47e41175d1491bf53798cd607ece8569cb94
-[
-+spring-web-mvc-basic/spring-web-mvc/pom.xml,c\5\c5ab4030cfd35985cd724465894fbf6560c7248d
-`
-0spring-web-mvc-basic/spring-web-mvc-base/pom.xml,f\1\f189cd1c7db7860c7c24dd462b1bdd633515231e
 a
 1spring-web-mvc-basic/spring-web-mvc-demo1/pom.xml,a\8\a8a28cd9c12e2451df4b3f69439dcecd128a905a
 L
@@ -67,3 +63,13 @@ a
 Xspring-web-mvc-basic/spring-web-mvc-base/src/main/java/com/spring/mvc/BaseSpringMVC.java,3\2\327e5b6e146b2c51638f19ad20bb09b9d3ece293
 ç
 ]spring-web-mvc-basic/spring-web-mvc-base/src/main/java/com/spring/mvc/SpringResourcePath.java,c\9\c94d2ddf5ff4e1ea2cbdd7926f8ab91c46427d88
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+Ç
+Rspring-web-flux/src/main/java/com/spring/web/client/‰ΩøÁî®WebClientÊµãËØïEndpoints,4\2\4214c53611083995db071c93e1b0e6ed849d1ff6
+G
+spring-web-flux/pom.xml,7\3\731f1c8f2d13f01c22f3d024a3b9be2a0c7077a6
+Ç
+Rspring-web-flux/src/main/java/com/spring/rest/template/BaseSpringRestTemplate.java,a\d\ad61e535b4601e19de55a7f2d6446b98e6eac201
+|
+Lspring-web-flux/src/main/java/com/spring/web/client/BaseSpringWebClient.java,0\c\0cd5a04a1f8e5603d8b3d542a7067a8c04c50aa5

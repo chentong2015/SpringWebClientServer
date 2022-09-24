@@ -1,6 +1,6 @@
 package spring.web.mvc;
 
-import base.IParseDoc;
+import spring.web.mvc.base.IParseDoc;
 
 import java.util.ServiceLoader;
 
