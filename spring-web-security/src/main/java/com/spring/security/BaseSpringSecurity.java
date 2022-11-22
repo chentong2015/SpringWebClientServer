@@ -1,5 +1,6 @@
 package com.spring.security;
 
+import org.springframework.http.HttpHeaders;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 
@@ -13,6 +14,16 @@ import java.security.Principal;
 // https://spring.io/projects/spring-session-core
 // https://spring.io/guides/tutorials/spring-boot-oauth2/
 public class BaseSpringSecurity {
+
+    // Spring Web Http Header
+    // 1. 所有关于Http头部的设置规则
+    // 2. 添加认证的token
+    private HttpHeaders getHeaders(String token) {
+        HttpHeaders headers = new HttpHeaders();
+        // headers.setBearerAuth(token);
+        headers.add("Authorization", "Bearer " + token);
+        return headers;
+    }
 
     public void handleAuthentication() {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();

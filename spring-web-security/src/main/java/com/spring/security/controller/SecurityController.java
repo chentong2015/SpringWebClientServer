@@ -11,14 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 // @PreAuthorize("hasAuthority('generator::read')")
 //   > restrict your whole class or application with a certain permission
 //
-// TODO. Web Security 所有可能的权限
-// hasRole, hasAnyRole
-// hasAuthority, hasAnyAuthority
-// permitAll, denyAll
-// isAnonymous, isRememberMe, isAuthenticated, isFullyAuthenticated
-// principal, authentication
-// hasPermission
-
+// Web Security 所有可能的权限
+// - hasRole, hasAnyRole
+// - hasAuthority, hasAnyAuthority
+// - permitAll, denyAll
+// - isAnonymous, isRememberMe, isAuthenticated, isFullyAuthenticated
+// - principal, authentication
+// - hasPermission
 @RestController
 @RequestMapping("/v1/test/security")
 public class SecurityController {

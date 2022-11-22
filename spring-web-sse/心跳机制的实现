@@ -14,4 +14,3 @@ Server端心跳机制的实现机制:
    client端将会重新进入timeout的问题 ...
 3. 考虑实现过程中的异常情况以及高并发 ?
 4. client定义timeout，并"动态"发送给server: server选择time*80%重新计算心跳时间
-

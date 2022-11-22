@@ -6,7 +6,8 @@ import java.util.ServiceLoader;
 
 // TODO: 如何往容器中注入Web三大组件(servlet, filter, listener)
 // 1. 配置xml文件
-//    web.xml;  dispatcher-servlet.xml
+//    web.xml;
+//    dispatcher-servlet.xml
 // 2. 使用特定的注解
 //    @WebServlet("/HomeServlet")      => MyServlet extends HttpServlet
 //    @WebListener                     => MyListener implements ServletContextListener

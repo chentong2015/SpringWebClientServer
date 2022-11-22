@@ -10,7 +10,7 @@ import java.util.concurrent.ScheduledExecutorService;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
-// TODO. 本质上是使用SseEmitter在定时的周期内发送event事件
+// 使用SseEmitter在定时的周期内发送event事件
 public class MySseEmitter extends SseEmitter {
 
     private final ScheduledExecutorService pulseScheduler;
