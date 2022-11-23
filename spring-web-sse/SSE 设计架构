@@ -5,6 +5,7 @@
  4. 如果timeout发生了，则需要重新建立连接retry
 
  Server-Sent Events(SSE)
+ https://ably.com/topic/server-sent-events
  TODO: SSE是一个基于HTTP的web技术/Protocol, 和REST没有关联
  1. Provide one-way server-to-client communications, based on the existing HTTP protocol
  2. Useful for sending notifications to clients or some like real time events update

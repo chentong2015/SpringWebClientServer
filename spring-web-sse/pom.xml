@@ -19,7 +19,7 @@
 
     <modules>
         <module>spring-web-sse-base</module>
-        <module>spring-web-sse-sample</module>
+        <module>spring-web-sse-server</module>
     </modules>
 
 </project>
