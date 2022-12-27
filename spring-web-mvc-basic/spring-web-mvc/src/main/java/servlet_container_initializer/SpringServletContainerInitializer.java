@@ -1,4 +1,4 @@
-package spring.web.mvc.servlet_container_initializer;
+package servlet_container_initializer;
 
 // Spring如何整合Spring MVC以及启动流程
 public class SpringServletContainerInitializer {

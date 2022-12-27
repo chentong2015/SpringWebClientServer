@@ -1,4 +1,4 @@
-package spring.web.mvc.config;
+package config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

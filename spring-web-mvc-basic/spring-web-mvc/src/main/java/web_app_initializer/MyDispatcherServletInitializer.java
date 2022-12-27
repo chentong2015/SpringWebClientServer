@@ -1,4 +1,4 @@
-package spring.web.mvc.web_app_initializer;
+package web_app_initializer;
 
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.servlet.support.AbstractDispatcherServletInitializer;

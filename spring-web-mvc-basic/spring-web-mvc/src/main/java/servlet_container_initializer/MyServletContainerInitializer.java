@@ -1,4 +1,4 @@
-package spring.web.mvc.servlet_container_initializer;
+package servlet_container_initializer;
 
 // TODO: 自定义ServletContainerInitializer
 // @HandlesTypes(value = {IParseDoc.class})
