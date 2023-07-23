@@ -8,10 +8,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
-// TODO: 配置指定请求路径的访问权限
-// https://spring.io/guides/gs/securing-web/
 public class SecurityJavaConfig extends WebSecurityConfigurerAdapter {
 
+    // TODO: 配置指定请求路径的访问权限
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests().antMatchers("/v1/test/security", "/index")
