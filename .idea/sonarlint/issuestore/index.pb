@@ -3,14 +3,8 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 a
 1spring-web-mvc-basic/spring-web-mvc-demo1/pom.xml,a\8\a8a28cd9c12e2451df4b3f69439dcecd128a905a
-L
-spring-web-mvc-basic/pom.xml,b\e\bea2fb1e5ae46551fa432dfdb3ef8100b559d0e9
 a
 1spring-web-mvc-basic/spring-web-mvc-demo2/pom.xml,1\1\1155dcda0cd92d2c96f41c27bf60113c0b38b045
-à
-Xspring-web-mvc-basic/spring-web-mvc-base/src/main/java/com/spring/mvc/BaseSpringMVC.java,3\2\327e5b6e146b2c51638f19ad20bb09b9d3ece293
-ç
-]spring-web-mvc-basic/spring-web-mvc-base/src/main/java/com/spring/mvc/SpringResourcePath.java,c\9\c94d2ddf5ff4e1ea2cbdd7926f8ab91c46427d88
 Ç
 Rspring-web-flux/src/main/java/com/spring/web/client/‰ΩøÁî®WebClientÊµãËØïEndpoints,4\2\4214c53611083995db071c93e1b0e6ed849d1ff6
 G
@@ -19,10 +13,6 @@ G
 Rspring-web-flux/src/main/java/com/spring/rest/template/BaseSpringRestTemplate.java,a\d\ad61e535b4601e19de55a7f2d6446b98e6eac201
 |
 Lspring-web-flux/src/main/java/com/spring/web/client/BaseSpringWebClient.java,0\c\0cd5a04a1f8e5603d8b3d542a7067a8c04c50aa5
-[
-+spring-web-mvc-basic/spring-web-mvc/pom.xml,c\5\c5ab4030cfd35985cd724465894fbf6560c7248d
-`
-0spring-web-mvc-basic/spring-web-mvc-base/pom.xml,f\1\f189cd1c7db7860c7c24dd462b1bdd633515231e
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 Z
@@ -51,11 +41,5 @@ ispring-web-sse/spring-web-sse-server/src/main/java/com/spring/sse/sample/contro
 lspring-web-sse/spring-web-sse-server/src/main/java/com/spring/sse/sample/controller/SseSampleController.java,5\f\5fa38ca950b5be047191b4d9754e8ed630c9542b
 î
 dspring-web-sse/spring-web-sse-server/src/main/java/com/spring/sse/sample/framework/MySseEmitter.java,9\3\935e7e30098ecd5b510061eb18122c0b4fb2c505
-U
-%spring-web-mvc-basic/Spring WebÁªÑ‰ª∂,1\9\19d254cc9566d7e3ad37b9f2556f65f8e92b7d8c
-¢
-rspring-web-mvc-basic/spring-web-mvc/src/main/java/servlet_container_initializer/MyServletContainerInitializer.java,a\a\aace5d063231abfcae6203f8f8ac05abf34bc33d
-É
-Sspring-web-mvc-basic/spring-web-mvc/src/main/java/config/WebMvcConfigurerBasic.java,9\2\92d090e364962322fcd2ba896f955257aba99fd5
-¶
-vspring-web-mvc-basic/spring-web-mvc/src/main/java/servlet_container_initializer/SpringServletContainerInitializer.java,5\a\5ad9caf3f81eb817e5374a2ced9cd60709ab29ef
+T
+$spring-web-sse/ÂøÉË∑≥Êú∫Âà∂ÁöÑÂÆûÁé∞,d\f\dfeb30f7b97536600d861a2e22f8753d828969f1

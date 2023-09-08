@@ -1,5 +1,6 @@
 package com.spring.security.config;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
@@ -7,13 +8,17 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+import org.springframework.web.bind.annotation.RestController;
 
-public class SecurityJavaConfig extends WebSecurityConfigurerAdapter {
+@SpringBootApplication
+@RestController
+public class MyWebSecurityConfigAdapter extends WebSecurityConfigurerAdapter {
 
-    // TODO: 配置指定请求路径的访问权限
+    // 配置指定请求路径的访问权限
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.authorizeRequests().antMatchers("/v1/test/security", "/index")
+        http.authorizeRequests()
+                .antMatchers("/v1/test/security", "/index")
                 .permitAll()
                 .anyRequest()
                 .authenticated()
