@@ -1,0 +1,5 @@
+TODO: 如何返回不需要servlet处理静态的页面
+配置静态资源的控制器
+<mvc:resources location="/static/" mapping="/static/**" />
+直接返回静态的html页面
+https://stackoverflow.com/questions/15479213/how-to-serve-html-files-with-spring

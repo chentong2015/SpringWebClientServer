@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		 xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+		 id="WebApp_ID" version="4.0"
+		 xsi:schemaLocation="http://www.springframework.org/schema/beans
+	        http://www.springframework.org/schema/beans/spring-beans.xsd
+	        http://www.springframework.org/schema/mvc
+	        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+   <display-name>SpringMVC</display-name>
+   
+    <!-- By default search /WEB-INF/applicationContext.xml 这里会默认加载指定的配置文件
+    <listener>
+       <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener> 
+	
+    全局的context配置文件
+    <context-param>
+    	<param-name>contextConfigLocation</param-name>
+    	<param-value>/WEB-INF/app-context.xml</param-value>
+	</context-param> -->
+
+   <servlet>
+     <display-name>SpringMVC</display-name>
+     <servlet-name>dispatcher</servlet-name>
+     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+     
+     <!-- Load from the ContextLoaderListener 
+	 <init-param>
+	    <param-name>contextConfigLocation</param-name>
+	    <param-value></param-value>
+	 </init-param> -->
+     
+     <!-- 使用自定义的applicationContext.xml Container配置文件 -->
+     <init-param>
+     	<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/dispatcher-servlet.xml</param-value>
+     </init-param>  
+     <!-- 自动加载，根据整数大小来按照顺序加载，值越小越先加载，相等则自动根据加载顺序 -->
+     <load-on-startup>1</load-on-startup>
+   </servlet>
+   
+   <!-- Map all requests for / to the dispatcher servlet -->
+   <servlet-mapping>
+  	 <servlet-name>dispatcher</servlet-name>
+  	 <url-pattern>/</url-pattern>
+   </servlet-mapping>
+  
+   <!-- 在/webapp文件夹中按照顺序查找并触发
+   <welcome-file-list>
+	  <welcome-file>index.html</welcome-file>
+	  <welcome-file>index.htm</welcome-file>
+	  <welcome-file>index.jsp</welcome-file>
+	  <welcome-file>default.html</welcome-file>
+	  <welcome-file>default.htm</welcome-file>
+	  <welcome-file>default.jsp</welcome-file>
+   </welcome-file-list> -->
+</web-app>

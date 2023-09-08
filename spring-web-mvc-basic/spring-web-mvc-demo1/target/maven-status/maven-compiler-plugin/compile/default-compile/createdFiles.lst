@@ -1,0 +1,17 @@
+main\controller\rest\BaseRestController.class
+main\service\BaseServiceImpl.class
+main\controller\BaseController.class
+main\util\Mappings.class
+main\config\MyApplicationContextConfig.class
+main\model\TodoItem.class
+main\view\BaseSpringTags.class
+main\BaseSpringMVC.class
+main\util\ViewNames.class
+main\DispatcherServlet.class
+main\view\BaseJSTL.class
+main\controller\rest\BaseRestfulAPI.class
+main\controller\BaseControllerModel.class
+main\config\MyWebApplicationInitializer.class
+main\service\BaseService.class
+main\controller\BaseItemController.class
+main\dao\TodoData.class
