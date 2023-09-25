@@ -41,11 +41,21 @@ public class BaseJSTL {
      *     <c:param name="id" value="${item.id} />
      * </c:url>
      */
+
+    // JSTL SQL: 前端VIEW直接使用SQL查询语句
+    // <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+    // <%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
+    // <sql:query var="resultSet" dataSource="jdbc/nameDataSource">
+    //     SELECT * FROM information
+    // </sql:query>
+    // <c:forEach var="row" items="{resultSet}">
+    //     Name: ${row.name} </br>  这里遍历使用的是数据库中列的名称
+    // </c:forEach>
 	 
-	 /**
-	 * JSPw文件中可以引入jsp component组件
-	 * <head>
-	 * <%@ include file="common/commonStyle.jsp"%>
-	 * </head>
-	 */
+    /**
+     * JSP文件中可以引入jsp component组件
+     * <head>
+     * <%@ include file="common/commonStyle.jsp"%>
+     * </head>
+     */
 }
