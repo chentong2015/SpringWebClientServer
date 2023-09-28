@@ -1,6 +1,6 @@
 package web_app_initializer;
 
-import config.WebMvcConfigurerBasic;
+import configuration.WebMvcConfigurerBasic;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
