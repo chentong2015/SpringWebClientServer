@@ -1,8 +1,0 @@
-
-n
-java:S2259"LA "NullPointerException" could be thrown; "authentication" is nullable here.(Â­×ñüÿÿÿÿ8‚âÁš˜1
-a
-java:S1854"?Remove this useless assignment to local variable "myPrincipal".(íÂõºÿÿÿÿÿ8ƒâÁš˜1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÆÔ³úÿÿÿÿ8…âÁš˜1
-R
-java:S1481"0Remove this unused "myPrincipal" local variable.(íÂõºÿÿÿÿÿ8…âÁš˜1

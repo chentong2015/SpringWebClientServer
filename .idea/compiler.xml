@@ -22,6 +22,7 @@
       <module name="spring-server-send-event" target="11" />
       <module name="spring-web-mvc-demo" target="11" />
       <module name="spring-web-rest-sse-emitter" target="11" />
+      <module name="spring-web-security" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>

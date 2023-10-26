@@ -1,11 +1,0 @@
-
-L
-java:S1611"6Remove the parentheses around the "requests" parameter(îÿª¯
-H
-java:S1611"2Remove the parentheses around the "form" parameter(â¦¿
-J
-java:S1611"4Remove the parentheses around the "logout" parameter(ßã¤´
-^
-java:S1612"HReplace this lambda with method reference 'LogoutConfigurer::permitAll'.(ßã¤´
-X
-java:S1874/"BRemove this use of "withDefaultPasswordEncoder"; it is deprecated.(¿•¿
