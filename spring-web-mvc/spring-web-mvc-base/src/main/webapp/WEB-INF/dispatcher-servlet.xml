@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+    <!-- 扫描指定的package下面的所有components到IoC Container 
+         同时注册所有被annotation注解标识过的bean ===> 同时激活 -->
+    <context:component-scan base-package="com.spring.mvc"/>
+    <!-- active the beans which is registered in application context
+         不在乎bean是如何被注入到container中的，只是激活 ===> 需要自定义激活 -->
+    <context:annotation-config></context:annotation-config>
+
+
+    <!-- Enables web based Spring annotations  ===> @EnableWebMvc
+         Support for annotation driven mvc controller -->
+    <mvc:annotation-driven/>
+    <!-- Allows for mapping the DispatcherServlet to "/" -->
+    <!-- <mvc:default-servlet-handler/>  -->
+
+
+    <!-- 配置View Resolver的路径构建, 组合前缀和后缀 -->
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+          lazy-init="default">
+        <property name="prefix" value="/WEB-INF/views/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!-- 注入到Controller中的component -->
+    <bean id="homeService" class="controller.service.HomeServiceImpl"/>
+
+    <bean id="requestScope" class="controller.beans.BaseBeanRequestScope" scope="request">
+        <aop:scoped-proxy/>
+    </bean>
+
+    <!-- aop:scoped-proxy 只能作用在Scope作用域为request或者session上面 !!
+         一个HTTP会话作用域的bean，公开为代理 
+         1. 如果是需要将session/request Bean注入到别的bean中，需要添加proxy
+         3. injecting a shorter-lived scoped bean into a longer-lived scoped bean
+         4. Container会创建一个public interface去fetch(获取)到真实状态的bean对象 -->
+    <bean id="sessionScope" class="controller.beans.BaseBeanSessionScope" scope="session">
+        <!-- session可能会跨度多个requests, 保留状态 -->
+        <aop:scoped-proxy/>
+    </bean>
+</beans>

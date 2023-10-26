@@ -79,6 +79,7 @@
                     <target>11</target>
                     <source>11</source>
                     <release>11</release>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
         </plugins>
