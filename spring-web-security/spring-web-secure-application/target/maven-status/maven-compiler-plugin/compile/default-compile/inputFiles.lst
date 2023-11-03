@@ -1,0 +1,7 @@
+D:\Work My Projects\Java Spring Master\SpringWebClientServer\spring-web-security\spring-web-secure-application\src\main\java\com\example\security\handler\UserForbiddenErrorHandler.java
+D:\Work My Projects\Java Spring Master\SpringWebClientServer\spring-web-security\spring-web-secure-application\src\main\java\com\example\security\config\AuthUserProperties.java
+D:\Work My Projects\Java Spring Master\SpringWebClientServer\spring-web-security\spring-web-secure-application\src\main\java\com\example\security\controller\IndexController.java
+D:\Work My Projects\Java Spring Master\SpringWebClientServer\spring-web-security\spring-web-secure-application\src\main\java\com\example\security\SecurityApplication.java
+D:\Work My Projects\Java Spring Master\SpringWebClientServer\spring-web-security\spring-web-secure-application\src\main\java\com\example\security\config\SecurityConfiguration.java
+D:\Work My Projects\Java Spring Master\SpringWebClientServer\spring-web-security\spring-web-secure-application\src\main\java\com\example\security\filter\CustomHeaderValidatorFilter.java
+D:\Work My Projects\Java Spring Master\SpringWebClientServer\spring-web-security\spring-web-secure-application\src\main\java\com\example\security\handler\UserAuthenticationErrorHandler.java

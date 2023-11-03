@@ -1,8 +1,0 @@
-com\spring\security\SpringHttpHeaders.class
-com\spring\security\controller\SecurityController.class
-com\spring\security\authentication\MySpringAuthentication.class
-com\spring\security\MyTlsConfigurer.class
-com\spring\security\config\WebSecurityConfiguration.class
-com\spring\security\config\MyWebSecurityConfigAdapter.class
-com\spring\security\authentication\AuthenticationDemo.class
-com\spring\security\config\WebSecurityConfiguration2.class
