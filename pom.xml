@@ -15,7 +15,7 @@
     </properties>
 
     <modules>
-        <module>spring-web-flux</module>
+        <module>spring-webflux-reactor</module>
         <module>spring-web-mvc</module>
         <module>spring-web-security</module>
         <module>spring-web-sse</module>

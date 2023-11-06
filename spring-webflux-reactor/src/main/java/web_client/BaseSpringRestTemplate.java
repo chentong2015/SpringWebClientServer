@@ -1,4 +1,4 @@
-package com.spring.rest.template;
+package web_client;
 
 import org.springframework.web.client.RestTemplate;
 
@@ -12,6 +12,7 @@ public class BaseSpringRestTemplate {
         RestTemplate restTemplate = new RestTemplate();
         String resultGet = restTemplate.getForObject(uri, String.class);
         String resultPost = restTemplate.postForObject(uri, "post item", String.class);
+
         System.out.println(resultGet + resultPost);
         restTemplate.put(uri, "put request data");
         restTemplate.delete(uri);

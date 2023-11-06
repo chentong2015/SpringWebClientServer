@@ -1,4 +1,4 @@
-package com.spring.web.client;
+package web_client;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

@@ -3,12 +3,6 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 ‚
 Rspring-web-flux/src/main/java/com/spring/web/client/ä½¿ç”¨WebClientæµ‹è¯•Endpoints,4\2\4214c53611083995db071c93e1b0e6ed849d1ff6
-G
-spring-web-flux/pom.xml,7\3\731f1c8f2d13f01c22f3d024a3b9be2a0c7077a6
-‚
-Rspring-web-flux/src/main/java/com/spring/rest/template/BaseSpringRestTemplate.java,a\d\ad61e535b4601e19de55a7f2d6446b98e6eac201
-|
-Lspring-web-flux/src/main/java/com/spring/web/client/BaseSpringWebClient.java,0\c\0cd5a04a1f8e5603d8b3d542a7067a8c04c50aa5
 z
 Jspring-web-sse/spring-web-sse-base/src/main/java/javascript/JS EventSource,9\c\9c879ff0e26b8e355b4a13395b6ee4087ea5a23f
 
@@ -41,10 +35,6 @@ Z
 _spring-web-sse/spring-web-sse-base/src/main/java/webflux/controller/MessageEventController.java,1\3\13cb414d9dec3832fa200bf36f297ff5dc152b96
 Z
 *spring-web-sse/spring-web-sse-base/pom.xml,6\a\6ab178ef8aac5cda53564a32b9758d6b0c6914fd
-a
-1spring-web-security/spring-boot-https-ssl/pom.xml,9\d\9de87163e332a48fff10a3068a365e8103122b2b
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 O
 spring-web-sse/SSE è®¾è®¡æž¶æž„,a\2\a2f5fbf793582bcc9b9d63a889bf4781692c8c22
 œ
@@ -53,12 +43,8 @@ lspring-web-security/spring-boot-https-ssl/src/main/java/com/example/https/contr
 bspring-web-security/spring-boot-https-ssl/src/main/java/com/example/https/tsl/MyTlsConfigurer.java,8\0\805b43db047553f415370c031162ef7d9518a8cb
 Ž
 ^spring-web-security/spring-boot-https-ssl/src/main/java/com/example/https/MainApplication.java,a\2\a244d6ff5f30a63251d0867b3bccadb01aca8e44
-i
-9spring-web-security/spring-web-secure-application/pom.xml,3\9\3910f8a615314ffa3221fc1bbca527e237ef536e
 ”
 dspring-web-security/spring-boot-https-ssl/src/main/java/com/example/https/config/SecurityConfig.java,c\e\ce5948ac5eee935d868b2d8e19369454372800db
-K
-spring-web-security/pom.xml,9\0\907733183706d9d6737e4eb1427b3c62f56e8107
 Ÿ
 ospring-web-security/spring-web-secure-application/src/main/java/com/example/security/auth/MyAuthentication.java,d\0\d0223b5b3ef2fbc1b6f0b8125e4be4c59701e40d
  
@@ -77,3 +63,15 @@ sspring-web-security/spring-web-secure-application/src/main/java/com/example/sec
 mspring-web-security/spring-web-secure-application/src/main/java/com/example/security/SecurityApplication.java,4\6\469d3c918b586d1dc08d9fefd94202389037dbbd
 œ
 lspring-web-security/spring-web-secure-application/src/main/java/com/example/security/Spring Security Web.txt,3\a\3a1ff63510e3f87660aaf111cef57ad0718ac250
+§
+wspring-web-security/spring-web-secure-application/src/main/java/com/example/security/controller/SecurityController.java,f\2\f2c84c477ab1b7c71976b4f7e11c97a2503df322
+ª
+zspring-web-security/spring-web-secure-application/src/main/java/com/example/security/config/DemoSecurityConfiguration.java,c\6\c600185ab4e4d40efe66c4cd5c7921fdc4055633
+¬
+|spring-web-security/spring-web-secure-application/src/main/java/com/example/security/config/SecurityConfigurationMaster.java,b\4\b4f0c4933453543a63926ed35c8461615c390c50
+¬
+|spring-web-security/spring-web-secure-application/src/main/java/com/example/security/filter/CustomHeaderValidatorFilter.java,4\4\44f9b9d132e481f231e5ee3185679bfa9f6029ae
+ 
+pspring-web-security/spring-web-secure-application/src/test/java/com/example/security/SecurityControllerTest.java,c\a\cad97810f3a575b85c2855661f2ae8fe226644d6
+¦
+vspring-web-security/spring-web-secure-application/src/main/java/com/example/security/config/SecurityConfiguration.java,1\b\1bd94c08e9cbb60a8fcab77a6949806bc36df018

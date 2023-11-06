@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
 
-    <artifactId>spring-boot-security</artifactId>
+    <artifactId>spring-web-security</artifactId>
 
     <modules>
         <module>spring-boot-https-ssl</module>

@@ -11,9 +11,9 @@
         <module name="spring-web-mvc-demo2" />
         <module name="spring-web-secure-application" />
         <module name="spring-web-mvc-demo1" />
+        <module name="spring-webflux-reactor" />
         <module name="spring-web-sse-base" />
         <module name="spring-boot-https-ssl" />
-        <module name="spring-web-flux" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
