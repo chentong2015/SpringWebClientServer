@@ -47,3 +47,33 @@ a
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 O
 spring-web-sse/SSE ËÆæËÆ°Êû∂ÊûÑ,a\2\a2f5fbf793582bcc9b9d63a889bf4781692c8c22
+ú
+lspring-web-security/spring-boot-https-ssl/src/main/java/com/example/https/controller/GreetingController.java,5\5\55581256ba494e22c09b65abc22537cdc99f1487
+í
+bspring-web-security/spring-boot-https-ssl/src/main/java/com/example/https/tsl/MyTlsConfigurer.java,8\0\805b43db047553f415370c031162ef7d9518a8cb
+é
+^spring-web-security/spring-boot-https-ssl/src/main/java/com/example/https/MainApplication.java,a\2\a244d6ff5f30a63251d0867b3bccadb01aca8e44
+i
+9spring-web-security/spring-web-secure-application/pom.xml,3\9\3910f8a615314ffa3221fc1bbca527e237ef536e
+î
+dspring-web-security/spring-boot-https-ssl/src/main/java/com/example/https/config/SecurityConfig.java,c\e\ce5948ac5eee935d868b2d8e19369454372800db
+K
+spring-web-security/pom.xml,9\0\907733183706d9d6737e4eb1427b3c62f56e8107
+ü
+ospring-web-security/spring-web-secure-application/src/main/java/com/example/security/auth/MyAuthentication.java,d\0\d0223b5b3ef2fbc1b6f0b8125e4be4c59701e40d
+†
+pspring-web-security/spring-web-secure-application/src/main/java/com/example/security/auth/SpringHttpHeaders.java,e\6\e689cea37148336ddc346205b932ba6dd69f01c1
+õ
+kspring-web-security/spring-web-secure-application/src/main/java/com/example/security/auth/TrustedToken.java,b\6\b6364fe73d04a9cf878ef40c06890ad3b03136a4
+û
+nspring-web-security/spring-web-secure-application/src/main/java/com/example/security/auth/UserCredentials.java,a\3\a394bd02d0617982a998cae4d1b9272727e5c6c9
+£
+sspring-web-security/spring-web-secure-application/src/main/java/com/example/security/config/AuthUserProperties.java,5\d\5df6b5c77640cded370f0813d534c6b7ecb52bdd
+±
+Äspring-web-security/spring-web-secure-application/src/main/java/com/example/security/handler/UserAuthenticationErrorHandler.java,2\5\25fc8ac2a3d84c68c303416294cf59e3763223b4
+´
+{spring-web-security/spring-web-secure-application/src/main/java/com/example/security/handler/UserForbiddenErrorHandler.java,4\8\4897d02ff1b4b960e6310e038cc464d7b7ac0472
+ù
+mspring-web-security/spring-web-secure-application/src/main/java/com/example/security/SecurityApplication.java,4\6\469d3c918b586d1dc08d9fefd94202389037dbbd
+ú
+lspring-web-security/spring-web-secure-application/src/main/java/com/example/security/Spring Security Web.txt,3\a\3a1ff63510e3f87660aaf111cef57ad0718ac250

@@ -1,0 +1,23 @@
+
+„
+java:S1192"gDefine a constant instead of duplicating this literal "Username is null or empty; username: '" 3 times.(ή‡Φ8οοΈ1
+e
+java:S6355"HAdd 'since' and/or 'forRemoval' arguments to the @Deprecated annotation.(υϊ8μή”Έ1
+R
+java:S1133"5Do not forget to remove this deprecated code someday.(ερΪύ8μή”Έ1
+E
+java:S1123"(Add the missing @deprecated Javadoc tag.(ερΪύ8μή”Έ1
+e
+java:S6355"HAdd 'since' and/or 'forRemoval' arguments to the @Deprecated annotation.(υϊ8νή”Έ1
+Q
+java:S1133"5Do not forget to remove this deprecated code someday.(‹δ…u8νή”Έ1
+D
+java:S1123"(Add the missing @deprecated Javadoc tag.(‹δ…u8ξή”Έ1
+e
+java:S6355$"HAdd 'since' and/or 'forRemoval' arguments to the @Deprecated annotation.(υϊ8πή”Έ1
+R
+java:S1133%"5Do not forget to remove this deprecated code someday.(όΚ“ύ8πή”Έ1
+E
+java:S1123%"(Add the missing @deprecated Javadoc tag.(όΚ“ύ8ρή”Έ1
+o
+java:S3776|"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(άΡγ8φή”Έ1
