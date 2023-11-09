@@ -1,3 +1,5 @@
+https://reflectoring.io/spring-security/
+
 Spring Security Components 三大组件:
 1. Servlet Filters 过滤器: 定义要过滤的url链接路径
 2. Authentication  身份认证: 验证用户的账户(username,password)
@@ -9,4 +11,6 @@ Spring Security Components 三大组件:
    - principal, authentication
    - hasPermission
 
-https://reflectoring.io/spring-security/
+OAuth2 Security 认证:
+Google API使用OAuth2.0协议进行身份验证和授权，需要从Google API Console获取OAuth2客户端凭据
+客户端应用会向Google授权服务器请求访问令牌，从响应中提取令牌并将令牌发送到您要访问的Google API

@@ -14,6 +14,8 @@
         <module name="spring-webflux-reactor" />
         <module name="spring-web-sse-base" />
         <module name="spring-boot-https-ssl" />
+        <module name="spring-security-password-handling" />
+        <module name="spring-web-security-oauth2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
