@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/spring-server-send-event/pom.xml" />
         <option value="$PROJECT_DIR$/spring-web-mvc-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-web-rest-sse-emitter/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-web-security/spring-security-password-handling/pom.xml" />
         <option value="$PROJECT_DIR$/spring-web-security/spring-web-security-base/pom.xml" />
       </set>
     </option>

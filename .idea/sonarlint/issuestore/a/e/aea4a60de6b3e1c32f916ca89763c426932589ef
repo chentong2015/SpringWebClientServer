@@ -1,0 +1,27 @@
+
+N
+java:S5344",Use secure "PasswordEncoder" implementation.(Ï•‘âüÿÿÿÿ8üÍäÍ»1
+`
+java:S1874">Remove this use of "LdapShaPasswordEncoder"; it is deprecated.(Ï•‘âüÿÿÿÿ8üÍäÍ»1
+N
+java:S5344",Use secure "PasswordEncoder" implementation.(‡²µ÷üÿÿÿÿ8ıÍäÍ»1
+\
+java:S1874":Remove this use of "Md4PasswordEncoder"; it is deprecated.(‡²µ÷üÿÿÿÿ8ıÍäÍ»1
+N
+java:S5344",Use secure "PasswordEncoder" implementation.(¿Ò¢³ùÿÿÿÿ8ıÍäÍ»1
+f
+java:S1874"DRemove this use of "MessageDigestPasswordEncoder"; it is deprecated.(¿Ò¢³ùÿÿÿÿ8ıÍäÍ»1
+X
+java:S1874";Remove this use of "NoOpPasswordEncoder"; it is deprecated.(Š„Œ²8ıÍäÍ»1
+N
+java:S5344",Use secure "PasswordEncoder" implementation.(˜œ•Üûÿÿÿÿ8şÍäÍ»1
+f
+java:S1874"DRemove this use of "MessageDigestPasswordEncoder"; it is deprecated.(˜œ•Üûÿÿÿÿ8şÍäÍ»1
+N
+java:S5344",Use secure "PasswordEncoder" implementation.(äÌ Éøÿÿÿÿ8ÿÍäÍ»1
+f
+java:S1874"DRemove this use of "MessageDigestPasswordEncoder"; it is deprecated.(äÌ Éøÿÿÿÿ8ÿÍäÍ»1
+I
+java:S5344",Use secure "PasswordEncoder" implementation.(Ô‡İ8ÿÍäÍ»1
+\
+java:S1874"?Remove this use of "StandardPasswordEncoder"; it is deprecated.(Ô‡İ8€ÎäÍ»1

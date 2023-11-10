@@ -8,24 +8,30 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-web-sse-server" />
         <module name="spring-web-mvc-base" />
+        <module name="spring-web-security-login" />
         <module name="spring-web-mvc-demo2" />
-        <module name="spring-web-secure-application" />
         <module name="spring-web-mvc-demo1" />
         <module name="spring-webflux-reactor" />
         <module name="spring-web-sse-base" />
+        <module name="spring-web-security-application" />
         <module name="spring-boot-https-ssl" />
-        <module name="spring-security-password-handling" />
         <module name="spring-web-security-oauth2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="feign-basic" target="11" />
       <module name="JaxRS-api-basic" target="11" />
+      <module name="spring-security-password-handling" target="15" />
       <module name="spring-server-send-event" target="11" />
       <module name="spring-web-mvc-demo" target="11" />
       <module name="spring-web-rest-sse-emitter" target="11" />
       <module name="spring-web-security" target="15" />
       <module name="spring-web-security-base" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-web-security-oauth2" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -1,0 +1,12 @@
+https://reflectoring.io/spring-security/
+
+Spring Security Components 三大组件:
+1. Servlet Filters 过滤器: 定义要过滤的url链接路径
+2. Authentication  身份认证: 验证用户的账户(username,password)
+3. Authorization   授权执行: 判断是否有权利或属于指定角色
+   - hasRole, hasAnyRole
+   - hasAuthority, hasAnyAuthority
+   - permitAll, denyAll
+   - isAnonymous, isRememberMe, isAuthenticated, isFullyAuthenticated
+   - principal, authentication
+   - hasPermission
