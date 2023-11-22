@@ -3,10 +3,8 @@ Servlet, Filter, Listener 三种Web组件的注入
 1. 配置xml文件
    web.xml;
    dispatcher-servlet.xml
-
 2. 使用特定的注解
    @WebServlet("/HomeServlet")      => MyServlet extends HttpServlet
    @WebListener                     => MyListener implements ServletContextListener
    @WebFilter(value="/hello")       => MyFilter implements Filter
-
 3. SPI机制: 基于Servlet3.0规范

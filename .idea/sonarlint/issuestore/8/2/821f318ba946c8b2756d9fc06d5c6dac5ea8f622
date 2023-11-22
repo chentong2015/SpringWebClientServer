@@ -1,0 +1,6 @@
+
+f	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃãÒ¸
+]
+java:S1612""BReplace this lambda with method reference 'this::getRegistration'.(İÖ¨äşÿÿÿÿ
+X
+java:S1612#"=Replace this lambda with method reference 'Objects::nonNull'.(ñÊëúÿÿÿÿ
