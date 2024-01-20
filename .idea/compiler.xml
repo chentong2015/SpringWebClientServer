@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-web-sse-server" />
         <module name="spring-web-security-login" />
+        <module name="spring-web-security-authz" />
         <module name="spring-web-mvc-base" />
         <module name="spring-web-mvc-demo2" />
+        <module name="spring-rest-template" />
         <module name="spring-web-mvc-demo1" />
         <module name="spring-webflux-reactor" />
         <module name="spring-web-sse-base" />
@@ -30,6 +32,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-web-security-authz" options="-parameters" />
       <module name="spring-web-security-oauth2" options="-parameters" />
     </option>
   </component>
