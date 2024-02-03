@@ -31,12 +31,7 @@ public class SecurityConfigurationMaster {
                         .logoutUrl("/logout")
                         .invalidateHttpSession(true)
                         .deleteCookies("JSESSIONID")
-                        .logoutSuccessUrl("/logoutok"))
-                .sessionManagement(session -> session
-                        .sessionCreationPolicy(SessionCreationPolicy.ALWAYS)
-                        .invalidSessionUrl("/invalidSession")
-                        .maximumSessions(1)
-                        .maxSessionsPreventsLogin(true));
+                        .logoutSuccessUrl("/logoutok"));
         return http.build();
     }
 

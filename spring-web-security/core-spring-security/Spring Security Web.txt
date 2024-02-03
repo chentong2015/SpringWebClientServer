@@ -1,5 +1,3 @@
-https://reflectoring.io/spring-security/
-
 Spring Security Components 三大组件:
 1. Servlet Filters 过滤器: 定义要过滤的url链接路径
 2. Authentication  身份认证: 验证用户的账户(username,password)
@@ -10,3 +8,9 @@ Spring Security Components 三大组件:
    - isAnonymous, isRememberMe, isAuthenticated, isFullyAuthenticated
    - principal, authentication
    - hasPermission
+
+TODO. Spring Security 采用添加Token的方式来防止CRSF攻击
+  https://docs.spring.io/spring-security/reference/servlet/exploits/csrf.html
+When Spring Security on classpath，it requires a valid CSRF token be sent with every request
+- http.csrf().disable() 设置取消CSRF token的使用
+- http.csrf().ignoringAntMatchers("/test/**");

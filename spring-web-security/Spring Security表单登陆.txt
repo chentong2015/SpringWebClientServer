@@ -1,9 +1,0 @@
-Login三种登录方式: 可以同时提供不同的选项
-.httpBasic()
-.fromLogin()   访问需要Auth地址时提供username和password表单
-.oauth2Login() 使用第三方身份进行认证和登录
-
-使用Form Login登录以及跳转配置
-https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/form.html
-https://www.baeldung.com/spring-security-login
-https://howtodoinjava.com/spring-security/login-form-example/

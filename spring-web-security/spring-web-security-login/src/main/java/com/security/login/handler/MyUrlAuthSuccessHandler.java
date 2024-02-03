@@ -15,20 +15,18 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-//  处理登录成功之后的逻辑
-//  Authentication包含用户认证成的凭证(Details + Credentials)
-public class MySimpleUrlAuthenticationSuccessHandler implements AuthenticationSuccessHandler {
+// 处理登录成功之后的逻辑
+// Authentication包含用户认证成的凭证(Details + Credentials)
+public class MyUrlAuthSuccessHandler implements AuthenticationSuccessHandler {
 
     private RedirectStrategy redirectStrategy = new DefaultRedirectStrategy();
 
     @Override
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws IOException {
         System.out.println(authentication);
-        // authentication.getPrincipal();
-        // authentication.getCredentials();
-        // authentication.getDetails();
-
-        // andle(request, response, authentication);
+        System.out.println(authentication.getPrincipal());
+        System.out.println(authentication.getCredentials());
+        System.out.println(authentication.getDetails());
         // clearAuthenticationAttributes(request);
     }
 
@@ -45,15 +43,13 @@ public class MySimpleUrlAuthenticationSuccessHandler implements AuthenticationSu
         Map<String, String> roleTargetUrlMap = new HashMap<>();
         roleTargetUrlMap.put("ROLE_USER", "/homepage.html");
         roleTargetUrlMap.put("ROLE_ADMIN", "/console.html");
-
-        final Collection<? extends GrantedAuthority> authorities = authentication.getAuthorities();
+        Collection<? extends GrantedAuthority> authorities = authentication.getAuthorities();
         for (final GrantedAuthority grantedAuthority : authorities) {
             String authorityName = grantedAuthority.getAuthority();
             if (roleTargetUrlMap.containsKey(authorityName)) {
                 return roleTargetUrlMap.get(authorityName);
             }
         }
-
         throw new IllegalStateException();
     }
 

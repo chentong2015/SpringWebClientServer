@@ -51,22 +51,15 @@ public class SecurityConfiguration {
         return new UsernamePasswordAuthenticationFilter(authenticationManager(http));
     }
 
-    // .sessionManagement() 请求Session的管理，Session的创建策略Policy
-    // .authorizeRequests() 定义指定的URL Matcher如何授权
-    // .authenticated() 定义URL请求的用户身份认证
     @Bean
     @Order(1)
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         // 在执行Filter Chain之前执行自定义的Filter
         http.addFilterBefore(new CustomHeaderValidatorFilter(), BasicAuthenticationFilter.class);
-        http.csrf().disable()
-                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-                .authorizeRequests()
-                // .antMatcher("/library/**")
-                .antMatchers(HttpMethod.GET, "/library/**")
-                .hasRole("USER")
-                .anyRequest()
-                .authenticated()
+        http.authorizeRequests()
+                .antMatchers("/library/**").permitAll()
+                .antMatchers(HttpMethod.GET, "/library/**").hasRole("USER")
+                .anyRequest().authenticated()
                 .and().httpBasic()
                 .and().exceptionHandling(exception -> exception
                         .authenticationEntryPoint(new UserAuthenticationErrorHandler())

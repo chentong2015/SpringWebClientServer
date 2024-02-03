@@ -21,10 +21,21 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>3.1.2</version>
+            <version>2.6.4</version>
+        </dependency>
+        <!-- Spring Security 配置有关Session和Cookie的属性 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <version>2.6.4</version>
         </dependency>
 
-        <!-- Spring Security 配置有关Session和Cookie的属性 -->
+        <!-- Spring Security 6.1之后废弃了csrf()的使用
+         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>3.1.5</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
@@ -34,6 +45,6 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-config</artifactId>
             <version>6.1.2</version>
-        </dependency>
+        </dependency> -->
     </dependencies>
 </project>
