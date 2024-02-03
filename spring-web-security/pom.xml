@@ -14,7 +14,8 @@
 
     <modules>
         <module>spring-boot-https-ssl</module>
-        <module>spring-web-security-application</module>
+        <module>spring-boot-session-cookie</module>
+        <module>spring-web-security-core</module>
         <module>spring-web-security-oauth2</module>
     </modules>
 
