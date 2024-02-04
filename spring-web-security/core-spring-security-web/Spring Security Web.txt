@@ -9,8 +9,3 @@ Spring Security Components 三大组件:
    - principal, authentication
    - hasPermission
 
-TODO. Spring Security 采用添加Token的方式来防止CRSF攻击
-  https://docs.spring.io/spring-security/reference/servlet/exploits/csrf.html
-When Spring Security on classpath，it requires a valid CSRF token be sent with every request
-- http.csrf().disable() 设置取消CSRF token的使用
-- http.csrf().ignoringAntMatchers("/test/**");
