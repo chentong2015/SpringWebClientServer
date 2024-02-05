@@ -15,7 +15,7 @@ import reactor.core.publisher.Mono;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalTime;
 
-// Spring Web Client: 废弃使用
+// Spring Web Client 废弃使用
 // 1. A part of Spring WebFlux framework (parallel version of Spring MVC)
 // 2. Spring webflux uses project reactor as reactive library.
 public class BaseSpringWebClient {

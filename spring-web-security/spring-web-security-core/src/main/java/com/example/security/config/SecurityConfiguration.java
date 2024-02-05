@@ -12,7 +12,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
-import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
@@ -29,6 +28,23 @@ public class SecurityConfiguration {
 
     public SecurityConfiguration(AuthUserProperties props) {
         this.props = props;
+    }
+
+    // TODO. Spring Security 核心三大组件之一：Servlet Filters 过滤器
+    @Bean
+    @Order(1)
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        // 在执行Filter Chain之前执行自定义的Filter
+        http.addFilterBefore(new CustomHeaderValidatorFilter(), BasicAuthenticationFilter.class);
+        http.authorizeRequests()
+                .antMatchers("/library/**").permitAll()
+                .antMatchers(HttpMethod.GET, "/library/**").hasRole("USER")
+                .anyRequest().authenticated()
+                .and().httpBasic()
+                .and().exceptionHandling(exception -> exception
+                        .authenticationEntryPoint(new UserAuthenticationErrorHandler())
+                        .accessDeniedHandler(new UserForbiddenErrorHandler()));
+        return http.build();
     }
 
     @Bean
@@ -49,21 +65,5 @@ public class SecurityConfiguration {
     @Bean
     public UsernamePasswordAuthenticationFilter usernamePasswordAuthenticationFilter(HttpSecurity http) throws Exception {
         return new UsernamePasswordAuthenticationFilter(authenticationManager(http));
-    }
-
-    @Bean
-    @Order(1)
-    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        // 在执行Filter Chain之前执行自定义的Filter
-        http.addFilterBefore(new CustomHeaderValidatorFilter(), BasicAuthenticationFilter.class);
-        http.authorizeRequests()
-                .antMatchers("/library/**").permitAll()
-                .antMatchers(HttpMethod.GET, "/library/**").hasRole("USER")
-                .anyRequest().authenticated()
-                .and().httpBasic()
-                .and().exceptionHandling(exception -> exception
-                        .authenticationEntryPoint(new UserAuthenticationErrorHandler())
-                        .accessDeniedHandler(new UserForbiddenErrorHandler()));
-        return http.build();
     }
 }

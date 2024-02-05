@@ -17,6 +17,7 @@
         <module>spring-boot-session-cookie</module>
         <module>spring-web-security-core</module>
         <module>spring-web-security-oauth2</module>
+        <module>spring-boot-auth-authorize</module>
     </modules>
 
     <properties>

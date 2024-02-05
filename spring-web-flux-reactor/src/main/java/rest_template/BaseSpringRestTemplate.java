@@ -1,9 +1,8 @@
-package web_client;
+package rest_template;
 
 import org.springframework.web.client.RestTemplate;
 
-// 推荐使用Spring AsyncRestTemplate/RestTemplate
-// 常应用在单元测试中，对Web Endpoints进行测试
+// 推荐使用RestTemplate/AsyncRestTemplate发送请求，单元测试Endpoints
 public class BaseSpringRestTemplate {
 
     // RestTemplate提供的最常规的Web Request请求操作

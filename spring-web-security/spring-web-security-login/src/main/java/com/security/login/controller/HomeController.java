@@ -1,18 +1,18 @@
 package com.security.login.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class HomeController {
 
     @GetMapping("/home")
     public String home() {
-        return "home page";
+        return "home";
     }
 
-    @GetMapping("/login")
-    public String login() {
-        return "login ok";
+    @GetMapping("/")
+    public String homePage() {
+        return "redirect:home";
     }
 }

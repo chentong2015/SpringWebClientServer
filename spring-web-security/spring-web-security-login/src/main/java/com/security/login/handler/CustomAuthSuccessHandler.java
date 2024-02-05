@@ -17,7 +17,7 @@ import java.util.Map;
 
 // 处理登录成功之后的逻辑
 // Authentication包含用户认证成的凭证(Details + Credentials)
-public class MyUrlAuthSuccessHandler implements AuthenticationSuccessHandler {
+public class CustomAuthSuccessHandler implements AuthenticationSuccessHandler {
 
     private RedirectStrategy redirectStrategy = new DefaultRedirectStrategy();
 

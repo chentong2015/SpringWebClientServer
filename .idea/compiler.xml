@@ -8,9 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-web-sse-server" />
         <module name="spring-web-security-login" />
+        <module name="spring-boot-auth-authorize" />
+        <module name="spring-web-flux-reactor" />
         <module name="spring-web-mvc-base" />
         <module name="spring-web-mvc-demo2" />
-        <module name="spring-rest-template" />
         <module name="spring-web-mvc-demo1" />
         <module name="spring-webflux-reactor" />
         <module name="spring-web-sse-base" />
