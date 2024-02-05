@@ -22,5 +22,6 @@
         <module>spring-web-mvc-base</module>
         <module>spring-web-mvc-demo1</module>
         <module>spring-web-mvc-demo2</module>
+        <module>jee-servlet-base</module>
     </modules>
 </project>

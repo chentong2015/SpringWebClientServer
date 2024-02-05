@@ -9,6 +9,7 @@
         <module name="spring-web-sse-server" />
         <module name="spring-web-security-login" />
         <module name="spring-boot-auth-authorize" />
+        <module name="jee-servlet-base" />
         <module name="spring-web-flux-reactor" />
         <module name="spring-web-mvc-base" />
         <module name="spring-web-mvc-demo2" />

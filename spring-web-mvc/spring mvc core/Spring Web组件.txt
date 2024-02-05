@@ -1,5 +1,8 @@
-Servlet, Filter, Listener 三种Web组件的注入
-基于JEE Servlet和Spring WebMVC
+Spring MVC 基于JEE Servlet构建
+
+Spring MVC 三组件: Servlet, Filter, Listener
+
+Spring MVC Web 组件的注入:
 1. 配置xml文件
    web.xml;
    dispatcher-servlet.xml
