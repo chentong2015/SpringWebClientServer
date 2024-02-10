@@ -15,10 +15,7 @@
     </properties>
 
     <modules>
-        <module>spring-web-flux-reactor</module>
         <module>spring-web-mvc</module>
         <module>spring-web-security</module>
-        <module>spring-web-sse</module>
-        <module>spring-web-security/spring-web-security-login</module>
     </modules>
 </project>

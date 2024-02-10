@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/spring-web-mvc-basic/spring-web-mvc-demo1/pom.xml" />
         <option value="$PROJECT_DIR$/spring-web-mvc-basic/spring-web-mvc-demo2/pom.xml" />
         <option value="$PROJECT_DIR$/spring-web-mvc-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-web-security/spring-web-security-login/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
