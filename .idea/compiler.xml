@@ -7,10 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-web-security-login" />
-        <module name="spring-boot-auth-authorize" />
-        <module name="jee-servlet-base" />
         <module name="spring-web-mvc-base" />
         <module name="spring-web-mvc-demo2" />
+        <module name="spring-boot-auth-authorize" />
         <module name="spring-web-mvc-demo1" />
         <module name="spring-webflux-reactor" />
         <module name="spring-boot-session-cookie" />
@@ -22,6 +21,7 @@
     <bytecodeTargetLevel>
       <module name="feign-basic" target="11" />
       <module name="JaxRS-api-basic" target="11" />
+      <module name="jee-servlet-base" target="17" />
       <module name="spring-security-password-handling" target="15" />
       <module name="spring-server-send-event" target="11" />
       <module name="spring-web-flux-reactor" target="11" />

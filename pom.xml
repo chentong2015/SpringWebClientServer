@@ -15,7 +15,6 @@
     </properties>
 
     <modules>
-        <module>jee-servlet-base</module>
         <module>spring-web-mvc</module>
         <module>spring-web-security</module>
     </modules>
