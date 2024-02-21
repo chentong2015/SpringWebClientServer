@@ -40,6 +40,7 @@
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
+
     <servlet-mapping>
         <servlet-name>app1</servlet-name>
         <url-pattern>/app1/*</url-pattern>

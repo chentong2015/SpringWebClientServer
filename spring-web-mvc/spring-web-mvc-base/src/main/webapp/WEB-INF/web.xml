@@ -16,7 +16,7 @@
     全局的context配置文件
     <context-param>
     	<param-name>contextConfigLocation</param-name>
-    	<param-value>/WEB-INF/app-context.xml</param-value>
+    	<param-value>/WEB-INF/context.xml</param-value>
 	</context-param> -->
 
    <servlet>

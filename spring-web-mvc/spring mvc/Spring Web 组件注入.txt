@@ -1,0 +1,9 @@
+Spring MVC Web 三大组件注入: Servlet, Filter, Listener
+1. 配置xml文件：注入<servlet>相关配置
+   web.xml
+   dispatcher-servlet.xml
+2. 使用特定的注解
+   @WebServlet("/HomeServlet")  => MyServlet extends HttpServlet
+   @WebListener                 => MyListener implements ServletContextListener
+   @WebFilter(value="/hello")   => MyFilter implements Filter
+3. SPI机制: 基于Servlet3.0规范
