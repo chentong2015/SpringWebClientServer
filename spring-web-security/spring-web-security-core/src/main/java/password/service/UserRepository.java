@@ -1,6 +1,6 @@
-package demo.password.main.service;
+package password.service;
 
-import demo.password.main.credentials.UserCredentials;
+import password.credentials.UserCredentials;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.transaction.annotation.Transactional;
 

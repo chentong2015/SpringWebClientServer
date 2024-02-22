@@ -1,4 +1,4 @@
-package demo.password.main.credentials;
+package password.credentials;
 
 // 完整的用户Auth认证的Model, 包含所有认证相关信息
 public class FullUserCredentials {

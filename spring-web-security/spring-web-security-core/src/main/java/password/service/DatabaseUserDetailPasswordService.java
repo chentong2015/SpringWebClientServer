@@ -1,6 +1,6 @@
-package demo.password.main.service;
+package password.service;
 
-import demo.password.main.credentials.UserCredentials;
+import password.credentials.UserCredentials;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsPasswordService;
 import org.springframework.stereotype.Service;

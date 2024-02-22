@@ -1,4 +1,4 @@
-package demo.password.main;
+package auth.token;
 
 import org.springframework.http.HttpHeaders;
 

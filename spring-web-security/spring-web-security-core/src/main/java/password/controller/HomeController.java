@@ -1,7 +1,7 @@
-package demo.password.main.controller;
+package password.controller;
 
-import demo.password.main.credentials.UserCredentials;
-import demo.password.main.service.UserRepository;
+import password.credentials.UserCredentials;
+import password.service.UserRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;

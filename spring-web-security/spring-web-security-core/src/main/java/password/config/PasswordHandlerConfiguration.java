@@ -1,7 +1,7 @@
-package demo.password.main.config;
+package password.config;
 
-import demo.password.main.service.DatabaseUserDetailPasswordService;
-import demo.password.main.service.DatabaseUserDetailsService;
+import password.service.DatabaseUserDetailPasswordService;
+import password.service.DatabaseUserDetailsService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationProvider;

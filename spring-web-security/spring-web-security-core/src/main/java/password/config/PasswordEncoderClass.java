@@ -1,4 +1,4 @@
-package demo.password.main.config;
+package password.config;
 
 import org.springframework.security.crypto.argon2.Argon2PasswordEncoder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

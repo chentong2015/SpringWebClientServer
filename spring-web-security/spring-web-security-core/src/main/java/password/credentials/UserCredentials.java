@@ -1,4 +1,4 @@
-package demo.password.main.credentials;
+package password.credentials;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
