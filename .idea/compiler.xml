@@ -12,6 +12,7 @@
         <module name="spring-boot-auth-authorize" />
         <module name="spring-web-mvc-demo1" />
         <module name="spring-webflux-reactor" />
+        <module name="spring-web-service-client" />
         <module name="spring-boot-session-cookie" />
         <module name="spring-web-security-core" />
         <module name="spring-boot-https-ssl" />

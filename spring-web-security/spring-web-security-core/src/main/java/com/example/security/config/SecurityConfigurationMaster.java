@@ -19,6 +19,7 @@ public class SecurityConfigurationMaster {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.authorizeRequests(request -> request.antMatchers("/home")
                         .permitAll().anyRequest().authenticated())
+                .cors().and()
                 .csrf().disable()
                 .antMatcher("/login")
                 .formLogin(form -> form
