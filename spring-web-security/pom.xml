@@ -13,10 +13,8 @@
     <artifactId>spring-web-security</artifactId>
 
     <modules>
-        <module>spring-boot-auth-authorize</module>
-        <module>spring-boot-https-ssl</module>
-        <module>spring-boot-session-cookie</module>
-        <module>spring-web-security-core</module>
+        <module>spring-web-security5</module>
+        <module>spring-web-security6</module>
         <module>spring-web-security-login</module>
         <module>spring-web-security-oauth2</module>
     </modules>

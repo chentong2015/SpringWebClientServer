@@ -4,8 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-webflux-reactor/spring-web-flux-reactor.iml" filepath="$PROJECT_DIR$/spring-webflux-reactor/spring-web-flux-reactor.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-web-sse/spring-web-sse.iml" filepath="$PROJECT_DIR$/spring-web-sse/spring-web-sse.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-web-sse/spring-web-sse-base/spring-web-sse-base.iml" filepath="$PROJECT_DIR$/spring-web-sse/spring-web-sse-base/spring-web-sse-base.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-web-sse/spring-web-sse-server/spring-web-sse-server.iml" filepath="$PROJECT_DIR$/spring-web-sse/spring-web-sse-server/spring-web-sse-server.iml" />
     </modules>
   </component>
 </project>

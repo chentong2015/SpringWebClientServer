@@ -19,5 +19,7 @@
         <module>spring-web-security</module>
         <module>spring-web-service-client</module>
         <module>spring-webflux-reactor</module>
+        <module>spring-web-projects</module>
+        <module>spring-web-sse-impl</module>
     </modules>
 </project>

@@ -13,12 +13,13 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
-@Configuration
+// @Configuration
 @EnableWebSecurity
 public class CustomLoginFormConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(final HttpSecurity http) throws Exception {
+        System.out.println("Called by Spring");
         http.authorizeRequests()
                 .antMatchers("/login").permitAll()
                 .antMatchers("/**").hasAnyRole("USER", "ADMIN")
