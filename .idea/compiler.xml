@@ -7,23 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-web-sse-server" />
-        <module name="spring-web-security-login" />
-        <module name="auth-security" />
-        <module name="web-password" />
-        <module name="web-session-cookie" />
         <module name="spring-web-mvc-base" />
         <module name="spring-web-mvc-demo2" />
-        <module name="web-https-ssl" />
         <module name="spring-web-mvc-demo1" />
         <module name="spring-webflux-reactor" />
         <module name="spring-web-service-client" />
         <module name="spring-web-sse-base" />
-        <module name="spring-web-security5" />
-        <module name="spring-web-security-oauth2" />
-        <module name="spring-web-security6" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auth-security" target="17" />
       <module name="feign-basic" target="11" />
       <module name="JaxRS-api-basic" target="11" />
       <module name="jee-servlet-base" target="17" />
@@ -32,9 +25,18 @@
       <module name="spring-server-send-event" target="11" />
       <module name="spring-web-flux-reactor" target="11" />
       <module name="spring-web-mvc-demo" target="11" />
+      <module name="spring-web-projects" target="17" />
       <module name="spring-web-rest-sse-emitter" target="11" />
+      <module name="spring-web-security" target="15" />
       <module name="spring-web-security-base" target="11" />
+      <module name="spring-web-security-login" target="15" />
+      <module name="spring-web-security-oauth2" target="15" />
+      <module name="spring-web-security5" target="15" />
+      <module name="spring-web-security6" target="17" />
       <module name="spring-web-sse" target="15" />
+      <module name="web-https-ssl" target="15" />
+      <module name="web-password" target="17" />
+      <module name="web-session-cookie" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
