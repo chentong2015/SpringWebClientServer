@@ -15,12 +15,9 @@ import reactor.core.publisher.Mono;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalTime;
 
-// Spring Web Client 废弃使用
-// 1. A part of Spring WebFlux framework (parallel version of Spring MVC)
-// 2. Spring webflux uses project reactor as reactive library.
-public class BaseSpringWebClient {
+public class SpringWebClientDemo {
 
-    private final Logger logger = LogManager.getLogger(BaseSpringWebClient.class);
+    private final Logger logger = LogManager.getLogger(SpringWebClientDemo.class);
 
     // TODO. 在使用builder构建WebClient时进行Authentication
     public void buildWebClient() {
@@ -35,6 +32,7 @@ public class BaseSpringWebClient {
         WebClient client = WebClient.builder()
                 .filter(ExchangeFilterFunctions.basicAuthentication("username", "token"))
                 .build();
+
         Mono<String> result = client.get()
                 .uri("/customers")
                 .header("Authorization", "Basic " + Base64Utils

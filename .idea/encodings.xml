@@ -14,8 +14,8 @@
     <file url="file://$PROJECT_DIR$/spring-web-mvc/spring-web-mvc-base/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-web-mvc/spring-web-mvc-demo1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-web-mvc/spring-web-mvc-demo1/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-web-service-client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-web-service-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-web-rest-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-web-rest-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-web-sse-impl/spring-web-sse-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-web-sse-impl/spring-web-sse-base/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-web-sse-impl/spring-web-sse-server/src/main/java" charset="UTF-8" />

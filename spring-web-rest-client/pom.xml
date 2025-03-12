@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>spring-web-service-client</artifactId>
+    <artifactId>spring-web-rest-client</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -18,24 +18,27 @@
     </properties>
 
     <dependencies>
-        <!-- 依赖于spring-ws-core的最新版本 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web-services</artifactId>
-            <version>3.2.5</version>
+            <version>3.4.3</version>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.ws</groupId>
             <artifactId>spring-ws-core</artifactId>
             <version>4.0.10</version>
         </dependency>
-
-        <!-- 配置到Spring HttpClient请求的客户端 -->
         <dependency>
             <groupId>org.apache.httpcomponents.client5</groupId>
             <artifactId>httpclient5</artifactId>
             <version>5.2.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>3.4.3</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

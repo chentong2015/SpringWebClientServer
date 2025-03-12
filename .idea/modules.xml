@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-web-projects/auth-security/auth-security.iml" filepath="$PROJECT_DIR$/spring-web-projects/auth-security/auth-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-webflux-reactor/spring-web-flux-reactor.iml" filepath="$PROJECT_DIR$/spring-webflux-reactor/spring-web-flux-reactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-web-projects.iml" filepath="$PROJECT_DIR$/spring-web-projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-web-security/spring-web-security.iml" filepath="$PROJECT_DIR$/spring-web-security/spring-web-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-web-security/spring-web-security-login/spring-web-security-login.iml" filepath="$PROJECT_DIR$/spring-web-security/spring-web-security-login/spring-web-security-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-web-security/spring-web-security-oauth2/spring-web-security-oauth2.iml" filepath="$PROJECT_DIR$/spring-web-security/spring-web-security-oauth2/spring-web-security-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-web-security/spring-web-security-core/spring-web-security5.iml" filepath="$PROJECT_DIR$/spring-web-security/spring-web-security-core/spring-web-security5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-web-security6.iml" filepath="$PROJECT_DIR$/spring-web-security6.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-web-sse/spring-web-sse.iml" filepath="$PROJECT_DIR$/spring-web-sse/spring-web-sse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-web-projects/web-https-ssl/web-https-ssl.iml" filepath="$PROJECT_DIR$/spring-web-projects/web-https-ssl/web-https-ssl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-password.iml" filepath="$PROJECT_DIR$/web-password.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-web-projects/web-session-cookie/web-session-cookie.iml" filepath="$PROJECT_DIR$/spring-web-projects/web-session-cookie/web-session-cookie.iml" />
     </modules>
   </component>
 </project>
