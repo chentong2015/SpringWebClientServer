@@ -6,7 +6,6 @@ import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.codec.ServerSentEvent;
-import org.springframework.util.Base64Utils;
 import org.springframework.web.reactive.function.client.ExchangeFilterFunctions;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Flux;
@@ -35,8 +34,7 @@ public class SpringWebClientDemo {
 
         Mono<String> result = client.get()
                 .uri("/customers")
-                .header("Authorization", "Basic " + Base64Utils
-                        .encodeToString(("username : token").getBytes(StandardCharsets.UTF_8)))
+                .header("Authorization", "Basic token")
                 .retrieve()
                 .bodyToMono(String.class);
         System.out.println(result);
