@@ -36,6 +36,8 @@ public class RestTemplateDemo {
 
         String url = "http://localhost:5679/products/2";
         RestTemplate restTemplate = new RestTemplate();
+
+        // ResponseEntity<String> 获取返回Body类型的对象数据
         String responseBody = restTemplate.postForObject(url, request, String.class);
         System.out.println(responseBody);
     }

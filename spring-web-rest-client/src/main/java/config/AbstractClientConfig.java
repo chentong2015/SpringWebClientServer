@@ -1,4 +1,4 @@
-package rest.client.config;
+package config;
 
 import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
 import org.apache.hc.client5.http.impl.classic.HttpClientBuilder;
