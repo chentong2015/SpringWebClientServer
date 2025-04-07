@@ -1,4 +1,4 @@
-package rest.client;
+package rest_template;
 
 import java.io.Serializable;
 

@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.test.web.server.LocalServerPort;
+import org.springframework.web.client.RestTemplate;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -18,7 +19,10 @@ class SpringRestTemplateTest {
 
     // 自动注入TestRestTemplate用于发送http请求测试Endpoint
     @Autowired
-    private TestRestTemplate restTemplate;
+    private TestRestTemplate testRestTemplate;
+
+    // TODO. TestRestTemplate作为RestTemplate的Wrapper包装类
+    private RestTemplate restTemplate = testRestTemplate.getRestTemplate();
 
     @Test
     void greetingShouldReturnDefaultMessage() {
