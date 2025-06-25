@@ -16,6 +16,7 @@
     </properties>
 
     <dependencies>
+        <!-- Spring Webflux 存在较多安全问题 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>

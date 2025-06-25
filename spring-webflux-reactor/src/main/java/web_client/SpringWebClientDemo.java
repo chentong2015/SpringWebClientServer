@@ -14,6 +14,8 @@ import reactor.core.publisher.Mono;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalTime;
 
+// Spring Web Client => 废弃使用
+// A part of Spring WebFlux framework
 public class SpringWebClientDemo {
 
     private final Logger logger = LogManager.getLogger(SpringWebClientDemo.class);
