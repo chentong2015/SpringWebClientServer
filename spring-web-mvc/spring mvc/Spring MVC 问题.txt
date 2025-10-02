@@ -1,0 +1,4 @@
+Spring MVC 不足之处, 过时的技术
+1. View页面层，渲染引擎(JSP, JSF均过时, 比较重): Thymeleaf(轻便), Freemarker / JSTL ...
+2. Spring擅长中间逻辑层的构建
+3. 数据库交互: JPA (Java持久层API, 标准的API, 有利于框架的更换, 抽象隔离) Hibernate / MyBatis
