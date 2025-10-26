@@ -11,9 +11,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 // based on Reactive Streams API
 // uses the event-loop computing model to implement asynchronous Java web applications
 @SpringBootApplication
-public class BaseSpringWebFlux {
+public class SpringWebFluxApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BaseSpringWebFlux.class, args);
+        SpringApplication.run(SpringWebFluxApplication.class, args);
     }
 }
