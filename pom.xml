@@ -16,7 +16,6 @@
 
     <modules>
         <module>spring-web-mvc</module>
-        <module>spring-web-sse-impl</module>
         <module>spring-web-rest-client</module>
         <module>spring-webflux-reactor</module>
     </modules>
