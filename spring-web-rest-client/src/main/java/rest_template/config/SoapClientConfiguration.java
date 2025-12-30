@@ -1,4 +1,4 @@
-package config;
+package rest_template.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.webservices.client.WebServiceTemplateBuilder;
